@@ -1,0 +1,3133 @@
+{
+    "code": "00000",
+    "msg": "success",
+    "requestTime": 1753608465071,
+    "data": [
+        {
+            "productId": "1043742729408237568",
+            "coin": "BGB",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "10000000.00000000",
+                    "currentApy": "1.50"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1042679333363535872",
+            "coin": "BGB",
+            "periodType": "fixed",
+            "period": "7",
+            "apyType": "single",
+            "advanceRedeem": "Yes",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "2000000.00000000",
+                    "currentApy": "1.70"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1042681093545152512",
+            "coin": "BGB",
+            "periodType": "fixed",
+            "period": "14",
+            "apyType": "single",
+            "advanceRedeem": "Yes",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "2000000.00000000",
+                    "currentApy": "2.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1189791135892393984",
+            "coin": "USDT",
+            "periodType": "fixed",
+            "period": "3",
+            "apyType": "ladder",
+            "advanceRedeem": "Yes",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "1000.00000000",
+                    "currentApy": "20.00"
+                },
+                {
+                    "rateLevel": "1",
+                    "minStepVal": "1000.00000000",
+                    "maxStepVal": "2000.00000000",
+                    "currentApy": "80.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "beginner"
+        },
+        {
+            "productId": "964334561256718336",
+            "coin": "USDT",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "ladder",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "300.00000000",
+                    "currentApy": "9.08"
+                },
+                {
+                    "rateLevel": "1",
+                    "minStepVal": "300.00000000",
+                    "maxStepVal": "120000000.00000000",
+                    "currentApy": "4.08"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1073065355653828608",
+            "coin": "USDT",
+            "periodType": "fixed",
+            "period": "7",
+            "apyType": "single",
+            "advanceRedeem": "Yes",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "10000000.00000000",
+                    "currentApy": "3.80"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "vip"
+        },
+        {
+            "productId": "1157454174137765888",
+            "coin": "USDT",
+            "periodType": "fixed",
+            "period": "14",
+            "apyType": "single",
+            "advanceRedeem": "Yes",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "10000000.00000000",
+                    "currentApy": "4.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "vip"
+        },
+        {
+            "productId": "1009011602793844736",
+            "coin": "APE",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "1000000.00000000",
+                    "currentApy": "0.80"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1053083113636651008",
+            "coin": "APE",
+            "periodType": "fixed",
+            "period": "7",
+            "apyType": "single",
+            "advanceRedeem": "Yes",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "200000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "off_line",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1053083691599155200",
+            "coin": "APE",
+            "periodType": "fixed",
+            "period": "14",
+            "apyType": "single",
+            "advanceRedeem": "Yes",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "200000.00000000",
+                    "currentApy": "1.20"
+                }
+            ],
+            "status": "off_line",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "928476216922914817",
+            "coin": "BTC",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "ladder",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "0.00500000",
+                    "currentApy": "10.00"
+                },
+                {
+                    "rateLevel": "1",
+                    "minStepVal": "0.00500000",
+                    "maxStepVal": "100.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1042344795416449024",
+            "coin": "BTC",
+            "periodType": "fixed",
+            "period": "7",
+            "apyType": "single",
+            "advanceRedeem": "Yes",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "50.00000000",
+                    "currentApy": "1.10"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1042345903601897472",
+            "coin": "BTC",
+            "periodType": "fixed",
+            "period": "14",
+            "apyType": "single",
+            "advanceRedeem": "Yes",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "50.00000000",
+                    "currentApy": "1.20"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "996176095743467520",
+            "coin": "BTC",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "200.00000000",
+                    "currentApy": "1.20"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "vip"
+        },
+        {
+            "productId": "984595776545406976",
+            "coin": "ETH",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "ladder",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "0.10000000",
+                    "currentApy": "9.20"
+                },
+                {
+                    "rateLevel": "1",
+                    "minStepVal": "0.10000000",
+                    "maxStepVal": "1000.00000000",
+                    "currentApy": "1.20"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1042349237129863168",
+            "coin": "ETH",
+            "periodType": "fixed",
+            "period": "7",
+            "apyType": "single",
+            "advanceRedeem": "Yes",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "100.00000000",
+                    "currentApy": "1.40"
+                }
+            ],
+            "status": "off_line",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1069890424065646592",
+            "coin": "ETH",
+            "periodType": "fixed",
+            "period": "14",
+            "apyType": "single",
+            "advanceRedeem": "Yes",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "5.00000000",
+                    "currentApy": "10.00"
+                }
+            ],
+            "status": "completed",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1042349691431702528",
+            "coin": "ETH",
+            "periodType": "fixed",
+            "period": "14",
+            "apyType": "single",
+            "advanceRedeem": "Yes",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "300.00000000",
+                    "currentApy": "1.50"
+                }
+            ],
+            "status": "off_line",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "996175437845909504",
+            "coin": "ETH",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "2000.00000000",
+                    "currentApy": "1.30"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "vip"
+        },
+        {
+            "productId": "1049802205617872896",
+            "coin": "SOL",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "50000.00000000",
+                    "currentApy": "2.60"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1100609556180262912",
+            "coin": "SOL",
+            "periodType": "fixed",
+            "period": "14",
+            "apyType": "single",
+            "advanceRedeem": "Yes",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "2000.00000000",
+                    "currentApy": "3.80"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "972002255653224449",
+            "coin": "ADA",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "1000000.00000000",
+                    "currentApy": "1.50"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1304281537676677120",
+            "coin": "XAUT",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "50.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1040803850040532992",
+            "coin": "SUI",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "200000.00000000",
+                    "currentApy": "1.50"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "923328136560947200",
+            "coin": "DOT",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "300000.00000000",
+                    "currentApy": "2.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1082860215109836800",
+            "coin": "DOT",
+            "periodType": "fixed",
+            "period": "14",
+            "apyType": "single",
+            "advanceRedeem": "Yes",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "50000.00000000",
+                    "currentApy": "3.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1058245608743522304",
+            "coin": "DOGE",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "200000.00000000",
+                    "currentApy": "0.30"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "972002829794717696",
+            "coin": "AVAX",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "100000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1082862207311958016",
+            "coin": "AVAX",
+            "periodType": "fixed",
+            "period": "14",
+            "apyType": "single",
+            "advanceRedeem": "Yes",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "2000.00000000",
+                    "currentApy": "1.50"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "923328515751186432",
+            "coin": "NEAR",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "1000000.00000000",
+                    "currentApy": "3.20"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1058246827927031808",
+            "coin": "PEPE",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "ladder",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "5000000.00000000",
+                    "currentApy": "10.00"
+                },
+                {
+                    "rateLevel": "1",
+                    "minStepVal": "5000000.00000000",
+                    "maxStepVal": "5000000000.00000000",
+                    "currentApy": "0.25"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1058247559807918080",
+            "coin": "KAS",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "200000.00000000",
+                    "currentApy": "0.30"
+                }
+            ],
+            "status": "off_line",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "966542521559060480",
+            "coin": "ATOM",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "200000.00000000",
+                    "currentApy": "2.40"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1082859550207791104",
+            "coin": "ATOM",
+            "periodType": "fixed",
+            "period": "14",
+            "apyType": "single",
+            "advanceRedeem": "Yes",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "3000.00000000",
+                    "currentApy": "4.50"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1217624464662355968",
+            "coin": "POL",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "300000.00000000",
+                    "currentApy": "2.80"
+                }
+            ],
+            "status": "off_line",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1217625521635352576",
+            "coin": "POL",
+            "periodType": "fixed",
+            "period": "7",
+            "apyType": "single",
+            "advanceRedeem": "Yes",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "1000000.00000000",
+                    "currentApy": "4.20"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1076332938402357248",
+            "coin": "TAO",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "100.00000000",
+                    "currentApy": "0.30"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1038566302438281216",
+            "coin": "CORE",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "2000000.00000000",
+                    "currentApy": "4.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1108228770621706240",
+            "coin": "CORE",
+            "periodType": "fixed",
+            "period": "7",
+            "apyType": "single",
+            "advanceRedeem": "Yes",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "2000000.00000000",
+                    "currentApy": "4.50"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1189402309319614464",
+            "coin": "ONDO",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "50000.00000000",
+                    "currentApy": "0.30"
+                }
+            ],
+            "status": "off_line",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1103282475586969600",
+            "coin": "TIA",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "10000.00000000",
+                    "currentApy": "1.07"
+                }
+            ],
+            "status": "off_line",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "984594834441801728",
+            "coin": "USDC",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "ladder",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "500.00000000",
+                    "currentApy": "9.00"
+                },
+                {
+                    "rateLevel": "1",
+                    "minStepVal": "500.00000000",
+                    "maxStepVal": "1000000.00000000",
+                    "currentApy": "4.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1042675107442876416",
+            "coin": "USDC",
+            "periodType": "fixed",
+            "period": "7",
+            "apyType": "single",
+            "advanceRedeem": "Yes",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "1000000.00000000",
+                    "currentApy": "4.05"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1042675664261898240",
+            "coin": "USDC",
+            "periodType": "fixed",
+            "period": "14",
+            "apyType": "single",
+            "advanceRedeem": "Yes",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "1000000.00000000",
+                    "currentApy": "4.10"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "996176490851094528",
+            "coin": "USDC",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "10000000.00000000",
+                    "currentApy": "4.20"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "vip"
+        },
+        {
+            "productId": "966540216348610560",
+            "coin": "BNB",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "1500.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1077778487135592448",
+            "coin": "OP",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "200000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1077778025468547072",
+            "coin": "OP",
+            "periodType": "fixed",
+            "period": "7",
+            "apyType": "single",
+            "advanceRedeem": "Yes",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "30000.00000000",
+                    "currentApy": "1.20"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1132167052833218561",
+            "coin": "MANTA",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "9000.00000000",
+                    "currentApy": "0.50"
+                }
+            ],
+            "status": "off_line",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1025648825307914240",
+            "coin": "ARB",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "ladder",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "500.00000000",
+                    "currentApy": "1.00"
+                },
+                {
+                    "rateLevel": "1",
+                    "minStepVal": "500.00000000",
+                    "maxStepVal": "5000.00000000",
+                    "currentApy": "0.32"
+                },
+                {
+                    "rateLevel": "2",
+                    "minStepVal": "5000.00000000",
+                    "maxStepVal": "2000000.00000000",
+                    "currentApy": "0.16"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1058246277298802688",
+            "coin": "SHIB",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "700000000.00000000",
+                    "currentApy": "0.30"
+                }
+            ],
+            "status": "off_line",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "948092339557416960",
+            "coin": "TRX",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "10000000.00000000",
+                    "currentApy": "2.50"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1153911916893462528",
+            "coin": "STX",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "200000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1153914891292532736",
+            "coin": "STX",
+            "periodType": "fixed",
+            "period": "7",
+            "apyType": "single",
+            "advanceRedeem": "Yes",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "200000.00000000",
+                    "currentApy": "2.20"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "956689109065580544",
+            "coin": "AXS",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "200000.00000000",
+                    "currentApy": "6.50"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1053084749834641408",
+            "coin": "AXS",
+            "periodType": "fixed",
+            "period": "7",
+            "apyType": "single",
+            "advanceRedeem": "Yes",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "50000.00000000",
+                    "currentApy": "7.50"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1053085491496640512",
+            "coin": "AXS",
+            "periodType": "fixed",
+            "period": "14",
+            "apyType": "single",
+            "advanceRedeem": "Yes",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "50000.00000000",
+                    "currentApy": "10.50"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1187147397420441600",
+            "coin": "ATH",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "6000000.00000000",
+                    "currentApy": "4.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1224612296454987776",
+            "coin": "ATH",
+            "periodType": "fixed",
+            "period": "30",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "6000000.00000000",
+                    "currentApy": "10.00"
+                }
+            ],
+            "status": "paused",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1224613904341843968",
+            "coin": "ATH",
+            "periodType": "fixed",
+            "period": "90",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "6000000.00000000",
+                    "currentApy": "15.00"
+                }
+            ],
+            "status": "paused",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1234688858609049600",
+            "coin": "ATH",
+            "periodType": "fixed",
+            "period": "180",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "6000000.00000000",
+                    "currentApy": "25.00"
+                }
+            ],
+            "status": "paused",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1064768750756450304",
+            "coin": "0X0",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "500000.00000000",
+                    "currentApy": "0.60"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1073460985815519232",
+            "coin": "0X0",
+            "periodType": "fixed",
+            "period": "7",
+            "apyType": "single",
+            "advanceRedeem": "Yes",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0",
+                    "maxStepVal": "100000",
+                    "currentApy": "2.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1243058662089211904",
+            "coin": "RAY",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "40000.00000000",
+                    "currentApy": "0.80"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1243060547264860160",
+            "coin": "RAY",
+            "periodType": "fixed",
+            "period": "7",
+            "apyType": "single",
+            "advanceRedeem": "Yes",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "40000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1058244998107389952",
+            "coin": "BABYDOGE",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "3000000000000.00000000",
+                    "currentApy": "0.30"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "948091618569142273",
+            "coin": "XRP",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "2000000.00000000",
+                    "currentApy": "0.36"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1050689532896628736",
+            "coin": "SAND",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "4000000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1050690190383140864",
+            "coin": "SAND",
+            "periodType": "fixed",
+            "period": "7",
+            "apyType": "single",
+            "advanceRedeem": "Yes",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0",
+                    "maxStepVal": "500000",
+                    "currentApy": "1.20"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1103150999251869696",
+            "coin": "SAND",
+            "periodType": "fixed",
+            "period": "14",
+            "apyType": "single",
+            "advanceRedeem": "Yes",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "100000.00000000",
+                    "currentApy": "1.50"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1065806854023958528",
+            "coin": "CRO",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "20000000.00000000",
+                    "currentApy": "0.80"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1067641142478528512",
+            "coin": "CRO",
+            "periodType": "fixed",
+            "period": "7",
+            "apyType": "single",
+            "advanceRedeem": "Yes",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0",
+                    "maxStepVal": "1000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1161807433627488256",
+            "coin": "SAGA",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "5000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1032407260909166592",
+            "coin": "STETH",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "1000.00000000",
+                    "currentApy": "1.25"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1044709911281684480",
+            "coin": "STETH",
+            "periodType": "fixed",
+            "period": "7",
+            "apyType": "single",
+            "advanceRedeem": "Yes",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00",
+                    "maxStepVal": "500.00",
+                    "currentApy": "1.70"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1038690930708074496",
+            "coin": "CFX",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "2000000.00000000",
+                    "currentApy": "0.80"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1148752397624299520",
+            "coin": "CFX",
+            "periodType": "fixed",
+            "period": "7",
+            "apyType": "single",
+            "advanceRedeem": "Yes",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "200000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1076333554193293312",
+            "coin": "ORDI",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "2000.00000000",
+                    "currentApy": "0.30"
+                }
+            ],
+            "status": "off_line",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1081320650867892224",
+            "coin": "AITECH",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "2000000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1076329575711399936",
+            "coin": "LTC",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "100.00000000",
+                    "currentApy": "0.30"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1243793975728508928",
+            "coin": "IO",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "80000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1136573570395557889",
+            "coin": "ZETA",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "50000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1165095431982964736",
+            "coin": "CKB",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "1000000.00000000",
+                    "currentApy": "0.60"
+                }
+            ],
+            "status": "off_line",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1139058334251769857",
+            "coin": "TUSD",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "200000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1153552750559514624",
+            "coin": "ETHFI",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "20000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1107895650806554624",
+            "coin": "NAKA",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "20000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "off_line",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1112954138586931200",
+            "coin": "MYRO",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "1000000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1018337902180327424",
+            "coin": "CRV",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "2000000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1143683980013752321",
+            "coin": "PIXEL",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "50000.00000000",
+                    "currentApy": "0.40"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1076330081800314880",
+            "coin": "EGLD",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "200.00000000",
+                    "currentApy": "0.30"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1212958688043384832",
+            "coin": "PYUSD",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "200000.00000000",
+                    "currentApy": "4.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1131407171670921217",
+            "coin": "PROPS",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "600000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1086154726124703744",
+            "coin": "SNX",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "100000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1086153264241991680",
+            "coin": "SNX",
+            "periodType": "fixed",
+            "period": "7",
+            "apyType": "single",
+            "advanceRedeem": "Yes",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "50000.00000000",
+                    "currentApy": "1.50"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1165148017830289408",
+            "coin": "MERL",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "50000.00000000",
+                    "currentApy": "0.80"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1314726853357649920",
+            "coin": "MERL",
+            "periodType": "fixed",
+            "period": "30",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "maturity",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.0",
+                    "maxStepVal": "200000000.0",
+                    "currentApy": "10.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1314726187805491200",
+            "coin": "MERL",
+            "periodType": "fixed",
+            "period": "60",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "maturity",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.0",
+                    "maxStepVal": "200000000.0",
+                    "currentApy": "15.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1314726320714174464",
+            "coin": "MERL",
+            "periodType": "fixed",
+            "period": "90",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "maturity",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.0",
+                    "maxStepVal": "200000000.0",
+                    "currentApy": "20.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1321610526145884160",
+            "coin": "MERL",
+            "periodType": "fixed",
+            "period": "180",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "maturity",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.0",
+                    "maxStepVal": "2000000.0",
+                    "currentApy": "40.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1312297699425173504",
+            "coin": "MERL",
+            "periodType": "fixed",
+            "period": "180",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "maturity",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.0",
+                    "maxStepVal": "200000000.0",
+                    "currentApy": "25.00"
+                }
+            ],
+            "status": "paused",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1314725718420512768",
+            "coin": "MERL",
+            "periodType": "fixed",
+            "period": "180",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "maturity",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.0",
+                    "maxStepVal": "200000000.0",
+                    "currentApy": "10.00"
+                }
+            ],
+            "status": "paused",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1299225399214051328",
+            "coin": "GMX",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "40000.00000000",
+                    "currentApy": "3.06"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1086154132781686784",
+            "coin": "WBTC",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "10.00000000",
+                    "currentApy": "1.10"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1086152506729713664",
+            "coin": "WBTC",
+            "periodType": "fixed",
+            "period": "7",
+            "apyType": "single",
+            "advanceRedeem": "Yes",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "5.00000000",
+                    "currentApy": "1.30"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1075236102363045888",
+            "coin": "KSM",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "50000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1075267349059620864",
+            "coin": "KSM",
+            "periodType": "fixed",
+            "period": "7",
+            "apyType": "single",
+            "advanceRedeem": "Yes",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.0",
+                    "maxStepVal": "2000.0",
+                    "currentApy": "1.20"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1189401745257025536",
+            "coin": "AR",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "2000.00000000",
+                    "currentApy": "0.30"
+                }
+            ],
+            "status": "off_line",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1078922559170695168",
+            "coin": "TET",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "5000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "off_line",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1159613041584001024",
+            "coin": "W",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "20000.00000000",
+                    "currentApy": "0.80"
+                }
+            ],
+            "status": "off_line",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1089078783107289088",
+            "coin": "MCADE",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "1000000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1152020658109440000",
+            "coin": "AEVO",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "10000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "off_line",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "972003380456497152",
+            "coin": "LUNA",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "3000000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1113241048421126144",
+            "coin": "LUNA",
+            "periodType": "fixed",
+            "period": "14",
+            "apyType": "single",
+            "advanceRedeem": "Yes",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "50000.00000000",
+                    "currentApy": "1.20"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1073454299524521984",
+            "coin": "SDEX",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "2000000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1127049901608685569",
+            "coin": "AI",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "20000.00000000",
+                    "currentApy": "0.80"
+                }
+            ],
+            "status": "off_line",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1076416427051077632",
+            "coin": "BAD",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "200000000000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1050688689778610176",
+            "coin": "DAI",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "300000.00000000",
+                    "currentApy": "3.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1050692888251752448",
+            "coin": "DAI",
+            "periodType": "fixed",
+            "period": "7",
+            "apyType": "single",
+            "advanceRedeem": "Yes",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0",
+                    "maxStepVal": "50000",
+                    "currentApy": "5.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1131406220734124033",
+            "coin": "UPC",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "10000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1068838987860692992",
+            "coin": "WOO",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "6000000.00000000",
+                    "currentApy": "1.80"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1112955034192465920",
+            "coin": "SUSHI",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "10000.00000000",
+                    "currentApy": "0.80"
+                }
+            ],
+            "status": "off_line",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1112951339115499520",
+            "coin": "SUSHI",
+            "periodType": "fixed",
+            "period": "7",
+            "apyType": "single",
+            "advanceRedeem": "Yes",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "10000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1163675179151679488",
+            "coin": "MAS",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "200000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1137238880366780417",
+            "coin": "VR",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "500000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1111849698945552384",
+            "coin": "SKL",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "500000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1144496515885453313",
+            "coin": "HTX",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "20000000000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1136523593245937665",
+            "coin": "COREUM",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "100000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1150202305078255616",
+            "coin": "SCA",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "20000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1077468955360518144",
+            "coin": "FTN",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "20000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1007861886794227712",
+            "coin": "GNS",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "300000.00000000",
+                    "currentApy": "3.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1103152762986057728",
+            "coin": "BAL",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "20000.00000000",
+                    "currentApy": "1.50"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1103150312988237824",
+            "coin": "BAL",
+            "periodType": "fixed",
+            "period": "7",
+            "apyType": "single",
+            "advanceRedeem": "Yes",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "20000.00000000",
+                    "currentApy": "2.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1159021993182781440",
+            "coin": "LYX",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "5000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1149218615133102080",
+            "coin": "MAPO",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "1000000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1156820320322510848",
+            "coin": "CATBOY",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "100000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1149570797669867520",
+            "coin": "NESS",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "100000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1095929359627608064",
+            "coin": "CBK",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "50000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1128144073862303745",
+            "coin": "ELA",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "10000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1154627521913180160",
+            "coin": "MC",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "5000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1234636045368266752",
+            "coin": "WALV",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "500000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1071578585216995328",
+            "coin": "AZIT",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "100000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1323821262133768192",
+            "coin": "BCH",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "1000.00000000",
+                    "currentApy": "1.55"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1155016976272609280",
+            "coin": "ALE",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "200000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1040157257012498432",
+            "coin": "TOMI",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0",
+                    "maxStepVal": "1500",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "off_line",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1266268809887895552",
+            "coin": "SKY",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "5000000.00000000",
+                    "currentApy": "20.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1280373970725920768",
+            "coin": "AB",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "50000000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1278189414451875840",
+            "coin": "USUAL",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "320000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1278191298185105408",
+            "coin": "USUAL",
+            "periodType": "fixed",
+            "period": "30",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "280000.00000000",
+                    "currentApy": "16.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1278191982015303680",
+            "coin": "USUAL",
+            "periodType": "fixed",
+            "period": "90",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "280000.00000000",
+                    "currentApy": "22.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1314357280779321344",
+            "coin": "RLUSD",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "150000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "completed",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1255380814075629568",
+            "coin": "TOMA",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "5000000000.00000000",
+                    "currentApy": "10.00"
+                }
+            ],
+            "status": "off_line",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1265905472436486144",
+            "coin": "ZEN",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "5000.00000000",
+                    "currentApy": "2.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1266537089857589248",
+            "coin": "USDS",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "400000.00000000",
+                    "currentApy": "5.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1253568356528054273",
+            "coin": "FUEL",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "500000.00000000",
+                    "currentApy": "8.00"
+                }
+            ],
+            "status": "off_line",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1275271894379421696",
+            "coin": "SHELL",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "200000.00000000",
+                    "currentApy": "5.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1310785448092733440",
+            "coin": "USD1",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "200000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1289427659272900608",
+            "coin": "RON",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "30000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "off_line",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1285432135507558400",
+            "coin": "RON",
+            "periodType": "fixed",
+            "period": "30",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "30000.00000000",
+                    "currentApy": "10.00"
+                }
+            ],
+            "status": "off_line",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1285432516019326976",
+            "coin": "RON",
+            "periodType": "fixed",
+            "period": "60",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "30000.00000000",
+                    "currentApy": "15.00"
+                }
+            ],
+            "status": "off_line",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1328955047167451136",
+            "coin": "TANSSI",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "1000000.00000000",
+                    "currentApy": "10.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1328953426647769088",
+            "coin": "TANSSI",
+            "periodType": "fixed",
+            "period": "14",
+            "apyType": "single",
+            "advanceRedeem": "Yes",
+            "settleMethod": "daily",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "1666667.00000000",
+                    "currentApy": "15.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        },
+        {
+            "productId": "1296209619336974336",
+            "coin": "MELANIA",
+            "periodType": "flexible",
+            "period": "",
+            "apyType": "single",
+            "advanceRedeem": "",
+            "settleMethod": "",
+            "apyList": [
+                {
+                    "rateLevel": "0",
+                    "minStepVal": "0.00000000",
+                    "maxStepVal": "120000.00000000",
+                    "currentApy": "1.00"
+                }
+            ],
+            "status": "in_progress",
+            "productLevel": "normal"
+        }
+    ]
+}

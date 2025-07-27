@@ -1,0 +1,5022 @@
+{
+  "BTCUSDT": [
+    {
+      "symbol": "BTCUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.003",
+      "maxFundingRate": "0.003"
+    }
+  ],
+  "ETHUSDT": [
+    {
+      "symbol": "ETHUSDT",
+      "fundingRate": "0.00008",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.00375",
+      "maxFundingRate": "0.00375"
+    }
+  ],
+  "XRPUSDT": [
+    {
+      "symbol": "XRPUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.003",
+      "maxFundingRate": "0.003"
+    }
+  ],
+  "BCHUSDT": [
+    {
+      "symbol": "BCHUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.00375",
+      "maxFundingRate": "0.00375"
+    }
+  ],
+  "LTCUSDT": [
+    {
+      "symbol": "LTCUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.0033",
+      "maxFundingRate": "0.0033"
+    }
+  ],
+  "ADAUSDT": [
+    {
+      "symbol": "ADAUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.00495",
+      "maxFundingRate": "0.00495"
+    }
+  ],
+  "ETCUSDT": [
+    {
+      "symbol": "ETCUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.00495",
+      "maxFundingRate": "0.00495"
+    }
+  ],
+  "LINKUSDT": [
+    {
+      "symbol": "LINKUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.005025",
+      "maxFundingRate": "0.005025"
+    }
+  ],
+  "TRXUSDT": [
+    {
+      "symbol": "TRXUSDT",
+      "fundingRate": "0.000165",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.00495",
+      "maxFundingRate": "0.00495"
+    }
+  ],
+  "DOTUSDT": [
+    {
+      "symbol": "DOTUSDT",
+      "fundingRate": "0.000233",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.00495",
+      "maxFundingRate": "0.00495"
+    }
+  ],
+  "DOGEUSDT": [
+    {
+      "symbol": "DOGEUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.00495",
+      "maxFundingRate": "0.00495"
+    }
+  ],
+  "SOLUSDT": [
+    {
+      "symbol": "SOLUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.00375",
+      "maxFundingRate": "0.00375"
+    }
+  ],
+  "BNBUSDT": [
+    {
+      "symbol": "BNBUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.00495",
+      "maxFundingRate": "0.00495"
+    }
+  ],
+  "UNIUSDT": [
+    {
+      "symbol": "UNIUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.00495",
+      "maxFundingRate": "0.00495"
+    }
+  ],
+  "ICPUSDT": [
+    {
+      "symbol": "ICPUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.0132",
+      "maxFundingRate": "0.0132"
+    }
+  ],
+  "AAVEUSDT": [
+    {
+      "symbol": "AAVEUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.0066",
+      "maxFundingRate": "0.0066"
+    }
+  ],
+  "FILUSDT": [
+    {
+      "symbol": "FILUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.00495",
+      "maxFundingRate": "0.00495"
+    }
+  ],
+  "XLMUSDT": [
+    {
+      "symbol": "XLMUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.0066",
+      "maxFundingRate": "0.0066"
+    }
+  ],
+  "ATOMUSDT": [
+    {
+      "symbol": "ATOMUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.00495",
+      "maxFundingRate": "0.00495"
+    }
+  ],
+  "XTZUSDT": [
+    {
+      "symbol": "XTZUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.009",
+      "maxFundingRate": "0.009"
+    }
+  ],
+  "SUSHIUSDT": [
+    {
+      "symbol": "SUSHIUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "AXSUSDT": [
+    {
+      "symbol": "AXSUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.0075",
+      "maxFundingRate": "0.0075"
+    }
+  ],
+  "THETAUSDT": [
+    {
+      "symbol": "THETAUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "AVAXUSDT": [
+    {
+      "symbol": "AVAXUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.00495",
+      "maxFundingRate": "0.00495"
+    }
+  ],
+  "SHIBUSDT": [
+    {
+      "symbol": "SHIBUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.00495",
+      "maxFundingRate": "0.00495"
+    }
+  ],
+  "MANAUSDT": [
+    {
+      "symbol": "MANAUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.0075",
+      "maxFundingRate": "0.0075"
+    }
+  ],
+  "GALAUSDT": [
+    {
+      "symbol": "GALAUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.00495",
+      "maxFundingRate": "0.00495"
+    }
+  ],
+  "SANDUSDT": [
+    {
+      "symbol": "SANDUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.00495",
+      "maxFundingRate": "0.00495"
+    }
+  ],
+  "DYDXUSDT": [
+    {
+      "symbol": "DYDXUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.0066",
+      "maxFundingRate": "0.0066"
+    }
+  ],
+  "CRVUSDT": [
+    {
+      "symbol": "CRVUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.0099",
+      "maxFundingRate": "0.0099"
+    }
+  ],
+  "NEARUSDT": [
+    {
+      "symbol": "NEARUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.0066",
+      "maxFundingRate": "0.0066"
+    }
+  ],
+  "EGLDUSDT": [
+    {
+      "symbol": "EGLDUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.0099",
+      "maxFundingRate": "0.0099"
+    }
+  ],
+  "KSMUSDT": [
+    {
+      "symbol": "KSMUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "ARUSDT": [
+    {
+      "symbol": "ARUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.0099",
+      "maxFundingRate": "0.0099"
+    }
+  ],
+  "PEOPLEUSDT": [
+    {
+      "symbol": "PEOPLEUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.0099",
+      "maxFundingRate": "0.0099"
+    }
+  ],
+  "LRCUSDT": [
+    {
+      "symbol": "LRCUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.01",
+      "maxFundingRate": "0.01"
+    }
+  ],
+  "NEOUSDT": [
+    {
+      "symbol": "NEOUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.0075",
+      "maxFundingRate": "0.0075"
+    }
+  ],
+  "ALICEUSDT": [
+    {
+      "symbol": "ALICEUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "WAVESUSDT": [
+    {
+      "symbol": "WAVESUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.0175",
+      "maxFundingRate": "0.0175"
+    }
+  ],
+  "ALGOUSDT": [
+    {
+      "symbol": "ALGOUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.0135",
+      "maxFundingRate": "0.0135"
+    }
+  ],
+  "IOTAUSDT": [
+    {
+      "symbol": "IOTAUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "ENJUSDT": [
+    {
+      "symbol": "ENJUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "GMTUSDT": [
+    {
+      "symbol": "GMTUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.0104",
+      "maxFundingRate": "0.0104"
+    }
+  ],
+  "ZILUSDT": [
+    {
+      "symbol": "ZILUSDT",
+      "fundingRate": "0.000112",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.01",
+      "maxFundingRate": "0.01"
+    }
+  ],
+  "IOSTUSDT": [
+    {
+      "symbol": "IOSTUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "APEUSDT": [
+    {
+      "symbol": "APEUSDT",
+      "fundingRate": "0.000514",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.00495",
+      "maxFundingRate": "0.00495"
+    }
+  ],
+  "RUNEUSDT": [
+    {
+      "symbol": "RUNEUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "KNCUSDT": [
+    {
+      "symbol": "KNCUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "APTUSDT": [
+    {
+      "symbol": "APTUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.0066",
+      "maxFundingRate": "0.0066"
+    }
+  ],
+  "CHZUSDT": [
+    {
+      "symbol": "CHZUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.0099",
+      "maxFundingRate": "0.0099"
+    }
+  ],
+  "ROSEUSDT": [
+    {
+      "symbol": "ROSEUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.0099",
+      "maxFundingRate": "0.0099"
+    }
+  ],
+  "ZRXUSDT": [
+    {
+      "symbol": "ZRXUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "KAVAUSDT": [
+    {
+      "symbol": "KAVAUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "ENSUSDT": [
+    {
+      "symbol": "ENSUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "MTLUSDT": [
+    {
+      "symbol": "MTLUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "AUDIOUSDT": [
+    {
+      "symbol": "AUDIOUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.03",
+      "maxFundingRate": "0.03"
+    }
+  ],
+  "SXPUSDT": [
+    {
+      "symbol": "SXPUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.0135",
+      "maxFundingRate": "0.0135"
+    }
+  ],
+  "C98USDT": [
+    {
+      "symbol": "C98USDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "OPUSDT": [
+    {
+      "symbol": "OPUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.00495",
+      "maxFundingRate": "0.00495"
+    }
+  ],
+  "RSRUSDT": [
+    {
+      "symbol": "RSRUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.0099",
+      "maxFundingRate": "0.0099"
+    }
+  ],
+  "SNXUSDT": [
+    {
+      "symbol": "SNXUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "STORJUSDT": [
+    {
+      "symbol": "STORJUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.0175",
+      "maxFundingRate": "0.0175"
+    }
+  ],
+  "1INCHUSDT": [
+    {
+      "symbol": "1INCHUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.0066",
+      "maxFundingRate": "0.0066"
+    }
+  ],
+  "COMPUSDT": [
+    {
+      "symbol": "COMPUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.018",
+      "maxFundingRate": "0.018"
+    }
+  ],
+  "IMXUSDT": [
+    {
+      "symbol": "IMXUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "LUNAUSDT": [
+    {
+      "symbol": "LUNAUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "FLOWUSDT": [
+    {
+      "symbol": "FLOWUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.0066",
+      "maxFundingRate": "0.0066"
+    }
+  ],
+  "TRBUSDT": [
+    {
+      "symbol": "TRBUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "QTUMUSDT": [
+    {
+      "symbol": "QTUMUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "API3USDT": [
+    {
+      "symbol": "API3USDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.0175",
+      "maxFundingRate": "0.0175"
+    }
+  ],
+  "MASKUSDT": [
+    {
+      "symbol": "MASKUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "WOOUSDT": [
+    {
+      "symbol": "WOOUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.01",
+      "maxFundingRate": "0.01"
+    }
+  ],
+  "GRTUSDT": [
+    {
+      "symbol": "GRTUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "BANDUSDT": [
+    {
+      "symbol": "BANDUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.014",
+      "maxFundingRate": "0.014"
+    }
+  ],
+  "STGUSDT": [
+    {
+      "symbol": "STGUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "LUNCUSDT": [
+    {
+      "symbol": "LUNCUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.0195",
+      "maxFundingRate": "0.0195"
+    }
+  ],
+  "ONEUSDT": [
+    {
+      "symbol": "ONEUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "JASMYUSDT": [
+    {
+      "symbol": "JASMYUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "MKRUSDT": [
+    {
+      "symbol": "MKRUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.00495",
+      "maxFundingRate": "0.00495"
+    }
+  ],
+  "BATUSDT": [
+    {
+      "symbol": "BATUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.014",
+      "maxFundingRate": "0.014"
+    }
+  ],
+  "MAGICUSDT": [
+    {
+      "symbol": "MAGICUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "ALPHAUSDT": [
+    {
+      "symbol": "ALPHAUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "LDOUSDT": [
+    {
+      "symbol": "LDOUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.0045",
+      "maxFundingRate": "0.0045"
+    }
+  ],
+  "CELOUSDT": [
+    {
+      "symbol": "CELOUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.0099",
+      "maxFundingRate": "0.0099"
+    }
+  ],
+  "BLURUSDT": [
+    {
+      "symbol": "BLURUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "MINAUSDT": [
+    {
+      "symbol": "MINAUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "COREUSDT": [
+    {
+      "symbol": "COREUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "CFXUSDT": [
+    {
+      "symbol": "CFXUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.0066",
+      "maxFundingRate": "0.0066"
+    }
+  ],
+  "ASTRUSDT": [
+    {
+      "symbol": "ASTRUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "GMXUSDT": [
+    {
+      "symbol": "GMXUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "ANKRUSDT": [
+    {
+      "symbol": "ANKRUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "ACHUSDT": [
+    {
+      "symbol": "ACHUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "FETUSDT": [
+    {
+      "symbol": "FETUSDT",
+      "fundingRate": "0.0007",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.0132",
+      "maxFundingRate": "0.0132"
+    }
+  ],
+  "FXSUSDT": [
+    {
+      "symbol": "FXSUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.016",
+      "maxFundingRate": "0.016"
+    }
+  ],
+  "HOOKUSDT": [
+    {
+      "symbol": "HOOKUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.016",
+      "maxFundingRate": "0.016"
+    }
+  ],
+  "SSVUSDT": [
+    {
+      "symbol": "SSVUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "USDCUSDT": [
+    {
+      "symbol": "USDCUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.0045",
+      "maxFundingRate": "0.0045"
+    }
+  ],
+  "LQTYUSDT": [
+    {
+      "symbol": "LQTYUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.016",
+      "maxFundingRate": "0.016"
+    }
+  ],
+  "STXUSDT": [
+    {
+      "symbol": "STXUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "TRUUSDT": [
+    {
+      "symbol": "TRUUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.0099",
+      "maxFundingRate": "0.0099"
+    }
+  ],
+  "HBARUSDT": [
+    {
+      "symbol": "HBARUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.009",
+      "maxFundingRate": "0.009"
+    }
+  ],
+  "INJUSDT": [
+    {
+      "symbol": "INJUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.0132",
+      "maxFundingRate": "0.0132"
+    }
+  ],
+  "BELUSDT": [
+    {
+      "symbol": "BELUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.016",
+      "maxFundingRate": "0.016"
+    }
+  ],
+  "COTIUSDT": [
+    {
+      "symbol": "COTIUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.01",
+      "maxFundingRate": "0.01"
+    }
+  ],
+  "VETUSDT": [
+    {
+      "symbol": "VETUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.005",
+      "maxFundingRate": "0.005"
+    }
+  ],
+  "ARBUSDT": [
+    {
+      "symbol": "ARBUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.00375",
+      "maxFundingRate": "0.00375"
+    }
+  ],
+  "LOOKSUSDT": [
+    {
+      "symbol": "LOOKSUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "KAIAUSDT": [
+    {
+      "symbol": "KAIAUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "FLMUSDT": [
+    {
+      "symbol": "FLMUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "CKBUSDT": [
+    {
+      "symbol": "CKBUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.0099",
+      "maxFundingRate": "0.0099"
+    }
+  ],
+  "IDUSDT": [
+    {
+      "symbol": "IDUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.0099",
+      "maxFundingRate": "0.0099"
+    }
+  ],
+  "JOEUSDT": [
+    {
+      "symbol": "JOEUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "TLMUSDT": [
+    {
+      "symbol": "TLMUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "HOTUSDT": [
+    {
+      "symbol": "HOTUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.0099",
+      "maxFundingRate": "0.0099"
+    }
+  ],
+  "CHRUSDT": [
+    {
+      "symbol": "CHRUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "RDNTUSDT": [
+    {
+      "symbol": "RDNTUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.0099",
+      "maxFundingRate": "0.0099"
+    }
+  ],
+  "ICXUSDT": [
+    {
+      "symbol": "ICXUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "HFTUSDT": [
+    {
+      "symbol": "HFTUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "ONTUSDT": [
+    {
+      "symbol": "ONTUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.01875",
+      "maxFundingRate": "0.01875"
+    }
+  ],
+  "NKNUSDT": [
+    {
+      "symbol": "NKNUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "ARPAUSDT": [
+    {
+      "symbol": "ARPAUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.016",
+      "maxFundingRate": "0.016"
+    }
+  ],
+  "SFPUSDT": [
+    {
+      "symbol": "SFPUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "CTSIUSDT": [
+    {
+      "symbol": "CTSIUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "SKLUSDT": [
+    {
+      "symbol": "SKLUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.0099",
+      "maxFundingRate": "0.0099"
+    }
+  ],
+  "RVNUSDT": [
+    {
+      "symbol": "RVNUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.018",
+      "maxFundingRate": "0.018"
+    }
+  ],
+  "CELRUSDT": [
+    {
+      "symbol": "CELRUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "FLOKIUSDT": [
+    {
+      "symbol": "FLOKIUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.0099",
+      "maxFundingRate": "0.0099"
+    }
+  ],
+  "SPELLUSDT": [
+    {
+      "symbol": "SPELLUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "SUIUSDT": [
+    {
+      "symbol": "SUIUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.0066",
+      "maxFundingRate": "0.0066"
+    }
+  ],
+  "PEPEUSDT": [
+    {
+      "symbol": "PEPEUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.0099",
+      "maxFundingRate": "0.0099"
+    }
+  ],
+  "IOTXUSDT": [
+    {
+      "symbol": "IOTXUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "CTKUSDT": [
+    {
+      "symbol": "CTKUSDT",
+      "fundingRate": "-0.000536",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "UMAUSDT": [
+    {
+      "symbol": "UMAUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "TURBOUSDT": [
+    {
+      "symbol": "TURBOUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.0099",
+      "maxFundingRate": "0.0099"
+    }
+  ],
+  "BSVUSDT": [
+    {
+      "symbol": "BSVUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.014",
+      "maxFundingRate": "0.014"
+    }
+  ],
+  "TONUSDT": [
+    {
+      "symbol": "TONUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.0066",
+      "maxFundingRate": "0.0066"
+    }
+  ],
+  "GTCUSDT": [
+    {
+      "symbol": "GTCUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.0135",
+      "maxFundingRate": "0.0135"
+    }
+  ],
+  "DENTUSDT": [
+    {
+      "symbol": "DENTUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.0195",
+      "maxFundingRate": "0.0195"
+    }
+  ],
+  "ZENUSDT": [
+    {
+      "symbol": "ZENUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "PHBUSDT": [
+    {
+      "symbol": "PHBUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "ORDIUSDT": [
+    {
+      "symbol": "ORDIUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.0099",
+      "maxFundingRate": "0.0099"
+    }
+  ],
+  "SLPUSDT": [
+    {
+      "symbol": "SLPUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "1000BONKUSDT": [
+    {
+      "symbol": "1000BONKUSDT",
+      "fundingRate": "0.000054",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.0099",
+      "maxFundingRate": "0.0099"
+    }
+  ],
+  "LEVERUSDT": [
+    {
+      "symbol": "LEVERUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.016",
+      "maxFundingRate": "0.016"
+    }
+  ],
+  "USTCUSDT": [
+    {
+      "symbol": "USTCUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "RADUSDT": [
+    {
+      "symbol": "RADUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "QNTUSDT": [
+    {
+      "symbol": "QNTUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "MAVUSDT": [
+    {
+      "symbol": "MAVUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "MDTUSDT": [
+    {
+      "symbol": "MDTUSDT",
+      "fundingRate": "-0.000545",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "XVGUSDT": [
+    {
+      "symbol": "XVGUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "1000XECUSDT": [
+    {
+      "symbol": "1000XECUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "AGLDUSDT": [
+    {
+      "symbol": "AGLDUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "WLDUSDT": [
+    {
+      "symbol": "WLDUSDT",
+      "fundingRate": "0.000126",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.00495",
+      "maxFundingRate": "0.00495"
+    }
+  ],
+  "PENDLEUSDT": [
+    {
+      "symbol": "PENDLEUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.0099",
+      "maxFundingRate": "0.0099"
+    }
+  ],
+  "ARKMUSDT": [
+    {
+      "symbol": "ARKMUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.0099",
+      "maxFundingRate": "0.0099"
+    }
+  ],
+  "CVXUSDT": [
+    {
+      "symbol": "CVXUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "YGGUSDT": [
+    {
+      "symbol": "YGGUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "OGNUSDT": [
+    {
+      "symbol": "OGNUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "LPTUSDT": [
+    {
+      "symbol": "LPTUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "BNTUSDT": [
+    {
+      "symbol": "BNTUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "SEIUSDT": [
+    {
+      "symbol": "SEIUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.0099",
+      "maxFundingRate": "0.0099"
+    }
+  ],
+  "CYBERUSDT": [
+    {
+      "symbol": "CYBERUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "BAKEUSDT": [
+    {
+      "symbol": "BAKEUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "BIGTIMEUSDT": [
+    {
+      "symbol": "BIGTIMEUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "WAXPUSDT": [
+    {
+      "symbol": "WAXPUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "POLYXUSDT": [
+    {
+      "symbol": "POLYXUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "TIAUSDT": [
+    {
+      "symbol": "TIAUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.0132",
+      "maxFundingRate": "0.0132"
+    }
+  ],
+  "MEMEUSDT": [
+    {
+      "symbol": "MEMEUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "PYTHUSDT": [
+    {
+      "symbol": "PYTHUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "JTOUSDT": [
+    {
+      "symbol": "JTOUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "1000SATSUSDT": [
+    {
+      "symbol": "1000SATSUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.0099",
+      "maxFundingRate": "0.0099"
+    }
+  ],
+  "1000RATSUSDT": [
+    {
+      "symbol": "1000RATSUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "ACEUSDT": [
+    {
+      "symbol": "ACEUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "XAIUSDT": [
+    {
+      "symbol": "XAIUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "MANTAUSDT": [
+    {
+      "symbol": "MANTAUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "ALTUSDT": [
+    {
+      "symbol": "ALTUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.0132",
+      "maxFundingRate": "0.0132"
+    }
+  ],
+  "JUPUSDT": [
+    {
+      "symbol": "JUPUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.0099",
+      "maxFundingRate": "0.0099"
+    }
+  ],
+  "ZETAUSDT": [
+    {
+      "symbol": "ZETAUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.0132",
+      "maxFundingRate": "0.0132"
+    }
+  ],
+  "STRKUSDT": [
+    {
+      "symbol": "STRKUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.0066",
+      "maxFundingRate": "0.0066"
+    }
+  ],
+  "PIXELUSDT": [
+    {
+      "symbol": "PIXELUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.0099",
+      "maxFundingRate": "0.0099"
+    }
+  ],
+  "DYMUSDT": [
+    {
+      "symbol": "DYMUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "WIFUSDT": [
+    {
+      "symbol": "WIFUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "AXLUSDT": [
+    {
+      "symbol": "AXLUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "BEAMUSDT": [
+    {
+      "symbol": "BEAMUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.0135",
+      "maxFundingRate": "0.0135"
+    }
+  ],
+  "BOMEUSDT": [
+    {
+      "symbol": "BOMEUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.0099",
+      "maxFundingRate": "0.0099"
+    }
+  ],
+  "METISUSDT": [
+    {
+      "symbol": "METISUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "NFPUSDT": [
+    {
+      "symbol": "NFPUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "VANRYUSDT": [
+    {
+      "symbol": "VANRYUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.01",
+      "maxFundingRate": "0.01"
+    }
+  ],
+  "AEVOUSDT": [
+    {
+      "symbol": "AEVOUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.01",
+      "maxFundingRate": "0.01"
+    }
+  ],
+  "ETHFIUSDT": [
+    {
+      "symbol": "ETHFIUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.0099",
+      "maxFundingRate": "0.0099"
+    }
+  ],
+  "OMUSDT": [
+    {
+      "symbol": "OMUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "ONDOUSDT": [
+    {
+      "symbol": "ONDOUSDT",
+      "fundingRate": "0.00006",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "CAKEUSDT": [
+    {
+      "symbol": "CAKEUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.0099",
+      "maxFundingRate": "0.0099"
+    }
+  ],
+  "PORTALUSDT": [
+    {
+      "symbol": "PORTALUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "NTRNUSDT": [
+    {
+      "symbol": "NTRNUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "KASUSDT": [
+    {
+      "symbol": "KASUSDT",
+      "fundingRate": "0.000154",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "AIUSDT": [
+    {
+      "symbol": "AIUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "ENAUSDT": [
+    {
+      "symbol": "ENAUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.0099",
+      "maxFundingRate": "0.0099"
+    }
+  ],
+  "WUSDT": [
+    {
+      "symbol": "WUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.0099",
+      "maxFundingRate": "0.0099"
+    }
+  ],
+  "CVCUSDT": [
+    {
+      "symbol": "CVCUSDT",
+      "fundingRate": "-0.000094",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "TNSRUSDT": [
+    {
+      "symbol": "TNSRUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.01",
+      "maxFundingRate": "0.01"
+    }
+  ],
+  "SAGAUSDT": [
+    {
+      "symbol": "SAGAUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.0099",
+      "maxFundingRate": "0.0099"
+    }
+  ],
+  "TAOUSDT": [
+    {
+      "symbol": "TAOUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "RAYUSDT": [
+    {
+      "symbol": "RAYUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "ATAUSDT": [
+    {
+      "symbol": "ATAUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.025",
+      "maxFundingRate": "0.025"
+    }
+  ],
+  "SUPERUSDT": [
+    {
+      "symbol": "SUPERUSDT",
+      "fundingRate": "-0.000134",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.0099",
+      "maxFundingRate": "0.0099"
+    }
+  ],
+  "ONGUSDT": [
+    {
+      "symbol": "ONGUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "OMNI1USDT": [
+    {
+      "symbol": "OMNI1USDT",
+      "fundingRate": "0.000018",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "LSKUSDT": [
+    {
+      "symbol": "LSKUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "GLMUSDT": [
+    {
+      "symbol": "GLMUSDT",
+      "fundingRate": "-0.005798",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "REZUSDT": [
+    {
+      "symbol": "REZUSDT",
+      "fundingRate": "-0.000098",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "XVSUSDT": [
+    {
+      "symbol": "XVSUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "MOVRUSDT": [
+    {
+      "symbol": "MOVRUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "BBUSDT": [
+    {
+      "symbol": "BBUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "NOTUSDT": [
+    {
+      "symbol": "NOTUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.0099",
+      "maxFundingRate": "0.0099"
+    }
+  ],
+  "BICOUSDT": [
+    {
+      "symbol": "BICOUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "HIFIUSDT": [
+    {
+      "symbol": "HIFIUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "IOUSDT": [
+    {
+      "symbol": "IOUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.0132",
+      "maxFundingRate": "0.0132"
+    }
+  ],
+  "TAIKOUSDT": [
+    {
+      "symbol": "TAIKOUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "BRETTUSDT": [
+    {
+      "symbol": "BRETTUSDT",
+      "fundingRate": "0.000146",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "ATHUSDT": [
+    {
+      "symbol": "ATHUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "ZKUSDT": [
+    {
+      "symbol": "ZKUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.009",
+      "maxFundingRate": "0.009"
+    }
+  ],
+  "MEWUSDT": [
+    {
+      "symbol": "MEWUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.0099",
+      "maxFundingRate": "0.0099"
+    }
+  ],
+  "LISTAUSDT": [
+    {
+      "symbol": "LISTAUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "ZROUSDT": [
+    {
+      "symbol": "ZROUSDT",
+      "fundingRate": "-0.000161",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.0099",
+      "maxFundingRate": "0.0099"
+    }
+  ],
+  "BLASTUSDT": [
+    {
+      "symbol": "BLASTUSDT",
+      "fundingRate": "-0.001379",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "DOGUSDT": [
+    {
+      "symbol": "DOGUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "PAXGUSDT": [
+    {
+      "symbol": "PAXGUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "ZKJUSDT": [
+    {
+      "symbol": "ZKJUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.0132",
+      "maxFundingRate": "0.0132"
+    }
+  ],
+  "BGBUSDT": [
+    {
+      "symbol": "BGBUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.01",
+      "maxFundingRate": "0.01"
+    }
+  ],
+  "MOCAUSDT": [
+    {
+      "symbol": "MOCAUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "GASUSDT": [
+    {
+      "symbol": "GASUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.018",
+      "maxFundingRate": "0.018"
+    }
+  ],
+  "UXLINKUSDT": [
+    {
+      "symbol": "UXLINKUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.0132",
+      "maxFundingRate": "0.0132"
+    }
+  ],
+  "BANANAUSDT": [
+    {
+      "symbol": "BANANAUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.0132",
+      "maxFundingRate": "0.0132"
+    }
+  ],
+  "MYROUSDT": [
+    {
+      "symbol": "MYROUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "POPCATUSDT": [
+    {
+      "symbol": "POPCATUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "PRCLUSDT": [
+    {
+      "symbol": "PRCLUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "AVAILUSDT": [
+    {
+      "symbol": "AVAILUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "RENDERUSDT": [
+    {
+      "symbol": "RENDERUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.018",
+      "maxFundingRate": "0.018"
+    }
+  ],
+  "RAREUSDT": [
+    {
+      "symbol": "RAREUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.0195",
+      "maxFundingRate": "0.0195"
+    }
+  ],
+  "PONKEUSDT": [
+    {
+      "symbol": "PONKEUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "TUSDT": [
+    {
+      "symbol": "TUSDT",
+      "fundingRate": "-0.004489",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.018",
+      "maxFundingRate": "0.018"
+    }
+  ],
+  "1000000MOGUSDT": [
+    {
+      "symbol": "1000000MOGUSDT",
+      "fundingRate": "0.000085",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "GUSDT": [
+    {
+      "symbol": "GUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "SYNUSDT": [
+    {
+      "symbol": "SYNUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "SYSUSDT": [
+    {
+      "symbol": "SYSUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "VOXELUSDT": [
+    {
+      "symbol": "VOXELUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "SUNUSDT": [
+    {
+      "symbol": "SUNUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.0099",
+      "maxFundingRate": "0.0099"
+    }
+  ],
+  "DOGSUSDT": [
+    {
+      "symbol": "DOGSUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.0099",
+      "maxFundingRate": "0.0099"
+    }
+  ],
+  "ORDERUSDT": [
+    {
+      "symbol": "ORDERUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.025",
+      "maxFundingRate": "0.025"
+    }
+  ],
+  "SUNDOGUSDT": [
+    {
+      "symbol": "SUNDOGUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "AKTUSDT": [
+    {
+      "symbol": "AKTUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "MBOXUSDT": [
+    {
+      "symbol": "MBOXUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.01005",
+      "maxFundingRate": "0.01005"
+    }
+  ],
+  "HNTUSDT": [
+    {
+      "symbol": "HNTUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "CHESSUSDT": [
+    {
+      "symbol": "CHESSUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.01005",
+      "maxFundingRate": "0.01005"
+    }
+  ],
+  "FLUXUSDT": [
+    {
+      "symbol": "FLUXUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.01005",
+      "maxFundingRate": "0.01005"
+    }
+  ],
+  "POLUSDT": [
+    {
+      "symbol": "POLUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.01005",
+      "maxFundingRate": "0.01005"
+    }
+  ],
+  "BSWUSDT": [
+    {
+      "symbol": "BSWUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.01005",
+      "maxFundingRate": "0.01005"
+    }
+  ],
+  "NEIROETHUSDT": [
+    {
+      "symbol": "NEIROETHUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "RPLUSDT": [
+    {
+      "symbol": "RPLUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.01005",
+      "maxFundingRate": "0.01005"
+    }
+  ],
+  "QUICKUSDT": [
+    {
+      "symbol": "QUICKUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "AERGOUSDT": [
+    {
+      "symbol": "AERGOUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "1MBABYDOGEUSDT": [
+    {
+      "symbol": "1MBABYDOGEUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.0132",
+      "maxFundingRate": "0.0132"
+    }
+  ],
+  "1000CATUSDT": [
+    {
+      "symbol": "1000CATUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.0099",
+      "maxFundingRate": "0.0099"
+    }
+  ],
+  "KDAUSDT": [
+    {
+      "symbol": "KDAUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.01005",
+      "maxFundingRate": "0.01005"
+    }
+  ],
+  "FIDAUSDT": [
+    {
+      "symbol": "FIDAUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.0099",
+      "maxFundingRate": "0.0099"
+    }
+  ],
+  "CATIUSDT": [
+    {
+      "symbol": "CATIUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "FIOUSDT": [
+    {
+      "symbol": "FIOUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.0099",
+      "maxFundingRate": "0.0099"
+    }
+  ],
+  "ARKUSDT": [
+    {
+      "symbol": "ARKUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.025",
+      "maxFundingRate": "0.025"
+    }
+  ],
+  "GHSTUSDT": [
+    {
+      "symbol": "GHSTUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.01005",
+      "maxFundingRate": "0.01005"
+    }
+  ],
+  "VELOUSDT": [
+    {
+      "symbol": "VELOUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "HMSTRUSDT": [
+    {
+      "symbol": "HMSTRUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.0066",
+      "maxFundingRate": "0.0066"
+    }
+  ],
+  "AGIUSDT": [
+    {
+      "symbol": "AGIUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "REIUSDT": [
+    {
+      "symbol": "REIUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "COSUSDT": [
+    {
+      "symbol": "COSUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.01005",
+      "maxFundingRate": "0.01005"
+    }
+  ],
+  "EIGENUSDT": [
+    {
+      "symbol": "EIGENUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.0099",
+      "maxFundingRate": "0.0099"
+    }
+  ],
+  "MOODENGUSDT": [
+    {
+      "symbol": "MOODENGUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "DIAUSDT": [
+    {
+      "symbol": "DIAUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.01875",
+      "maxFundingRate": "0.01875"
+    }
+  ],
+  "OGUSDT": [
+    {
+      "symbol": "OGUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "NEIROCTOUSDT": [
+    {
+      "symbol": "NEIROCTOUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.0134",
+      "maxFundingRate": "0.0134"
+    }
+  ],
+  "ETHWUSDT": [
+    {
+      "symbol": "ETHWUSDT",
+      "fundingRate": "0.000193",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "DEGENUSDT": [
+    {
+      "symbol": "DEGENUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "KMNOUSDT": [
+    {
+      "symbol": "KMNOUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "POWRUSDT": [
+    {
+      "symbol": "POWRUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "PYRUSDT": [
+    {
+      "symbol": "PYRUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.025",
+      "maxFundingRate": "0.025"
+    }
+  ],
+  "CARVUSDT": [
+    {
+      "symbol": "CARVUSDT",
+      "fundingRate": "0.000013",
+      "fundingRateInterval": "1",
+      "nextUpdate": "1753610400000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "SLERFUSDT": [
+    {
+      "symbol": "SLERFUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "PUFFERUSDT": [
+    {
+      "symbol": "PUFFERUSDT",
+      "fundingRate": "0.000339",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "10000WHYUSDT": [
+    {
+      "symbol": "10000WHYUSDT",
+      "fundingRate": "0.000408",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "DEEPUSDT": [
+    {
+      "symbol": "DEEPUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "DBRUSDT": [
+    {
+      "symbol": "DBRUSDT",
+      "fundingRate": "0.000013",
+      "fundingRateInterval": "1",
+      "nextUpdate": "1753610400000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "LUMIAUSDT": [
+    {
+      "symbol": "LUMIAUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "SCRUSDT": [
+    {
+      "symbol": "SCRUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.0099",
+      "maxFundingRate": "0.0099"
+    }
+  ],
+  "GOATUSDT": [
+    {
+      "symbol": "GOATUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "XUSDT": [
+    {
+      "symbol": "XUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "SAFEUSDT": [
+    {
+      "symbol": "SAFEUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "GRASSUSDT": [
+    {
+      "symbol": "GRASSUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "SWEATUSDT": [
+    {
+      "symbol": "SWEATUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "SANTOSUSDT": [
+    {
+      "symbol": "SANTOSUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.01005",
+      "maxFundingRate": "0.01005"
+    }
+  ],
+  "SPXUSDT": [
+    {
+      "symbol": "SPXUSDT",
+      "fundingRate": "0.000113",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "VIRTUALUSDT": [
+    {
+      "symbol": "VIRTUALUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "AEROUSDT": [
+    {
+      "symbol": "AEROUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "CETUSUSDT": [
+    {
+      "symbol": "CETUSUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.0099",
+      "maxFundingRate": "0.0099"
+    }
+  ],
+  "COWUSDT": [
+    {
+      "symbol": "COWUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.0132",
+      "maxFundingRate": "0.0132"
+    }
+  ],
+  "SWELLUSDT": [
+    {
+      "symbol": "SWELLUSDT",
+      "fundingRate": "-0.002051",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "DRIFTUSDT": [
+    {
+      "symbol": "DRIFTUSDT",
+      "fundingRate": "0.000181",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.01005",
+      "maxFundingRate": "0.01005"
+    }
+  ],
+  "PNUTUSDT": [
+    {
+      "symbol": "PNUTUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "ACTUSDT": [
+    {
+      "symbol": "ACTUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "CROUSDT": [
+    {
+      "symbol": "CROUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "PEAQUSDT": [
+    {
+      "symbol": "PEAQUSDT",
+      "fundingRate": "-0.001011",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "FWOGUSDT": [
+    {
+      "symbol": "FWOGUSDT",
+      "fundingRate": "0.000734",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.03",
+      "maxFundingRate": "0.03"
+    }
+  ],
+  "HIPPOUSDT": [
+    {
+      "symbol": "HIPPOUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "SNTUSDT": [
+    {
+      "symbol": "SNTUSDT",
+      "fundingRate": "0.000013",
+      "fundingRateInterval": "1",
+      "nextUpdate": "1753610400000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "MERLUSDT": [
+    {
+      "symbol": "MERLUSDT",
+      "fundingRate": "-0.000206",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "STEEMUSDT": [
+    {
+      "symbol": "STEEMUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.01875",
+      "maxFundingRate": "0.01875"
+    }
+  ],
+  "BANUSDT": [
+    {
+      "symbol": "BANUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.03",
+      "maxFundingRate": "0.03"
+    }
+  ],
+  "OLUSDT": [
+    {
+      "symbol": "OLUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "MORPHOUSDT": [
+    {
+      "symbol": "MORPHOUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "SCRTUSDT": [
+    {
+      "symbol": "SCRTUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "CHILLGUYUSDT": [
+    {
+      "symbol": "CHILLGUYUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "1MCHEEMSUSDT": [
+    {
+      "symbol": "1MCHEEMSUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "OXTUSDT": [
+    {
+      "symbol": "OXTUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "ZRCUSDT": [
+    {
+      "symbol": "ZRCUSDT",
+      "fundingRate": "-0.000125",
+      "fundingRateInterval": "1",
+      "nextUpdate": "1753610400000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "THEUSDT": [
+    {
+      "symbol": "THEUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "MAJORUSDT": [
+    {
+      "symbol": "MAJORUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "CTCUSDT": [
+    {
+      "symbol": "CTCUSDT",
+      "fundingRate": "0.000594",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "XDCUSDT": [
+    {
+      "symbol": "XDCUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.01875",
+      "maxFundingRate": "0.01875"
+    }
+  ],
+  "XIONUSDT": [
+    {
+      "symbol": "XIONUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "ORCAUSDT": [
+    {
+      "symbol": "ORCAUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.018",
+      "maxFundingRate": "0.018"
+    }
+  ],
+  "ACXUSDT": [
+    {
+      "symbol": "ACXUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "NSUSDT": [
+    {
+      "symbol": "NSUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.025",
+      "maxFundingRate": "0.025"
+    }
+  ],
+  "MOVEUSDT": [
+    {
+      "symbol": "MOVEUSDT",
+      "fundingRate": "-0.001918",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "KOMAUSDT": [
+    {
+      "symbol": "KOMAUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.01",
+      "maxFundingRate": "0.01"
+    }
+  ],
+  "MEUSDT": [
+    {
+      "symbol": "MEUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "VELODROMEUSDT": [
+    {
+      "symbol": "VELODROMEUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "AVAUSDT": [
+    {
+      "symbol": "AVAUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "VANAUSDT": [
+    {
+      "symbol": "VANAUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.018",
+      "maxFundingRate": "0.018"
+    }
+  ],
+  "HYPEUSDT": [
+    {
+      "symbol": "HYPEUSDT",
+      "fundingRate": "0.000187",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "PENGUUSDT": [
+    {
+      "symbol": "PENGUUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "USUALUSDT": [
+    {
+      "symbol": "USUALUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "FUELUSDT": [
+    {
+      "symbol": "FUELUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "CGPTUSDT": [
+    {
+      "symbol": "CGPTUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "AIXBTUSDT": [
+    {
+      "symbol": "AIXBTUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "FARTCOINUSDT": [
+    {
+      "symbol": "FARTCOINUSDT",
+      "fundingRate": "0.000361",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "HIVEUSDT": [
+    {
+      "symbol": "HIVEUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.0195",
+      "maxFundingRate": "0.0195"
+    }
+  ],
+  "DEXEUSDT": [
+    {
+      "symbol": "DEXEUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.018",
+      "maxFundingRate": "0.018"
+    }
+  ],
+  "GIGAUSDT": [
+    {
+      "symbol": "GIGAUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.01125",
+      "maxFundingRate": "0.01125"
+    }
+  ],
+  "PHAUSDT": [
+    {
+      "symbol": "PHAUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "DFUSDT": [
+    {
+      "symbol": "DFUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.0195",
+      "maxFundingRate": "0.0195"
+    }
+  ],
+  "AI16ZUSDT": [
+    {
+      "symbol": "AI16ZUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "GRIFFAINUSDT": [
+    {
+      "symbol": "GRIFFAINUSDT",
+      "fundingRate": "0.000497",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "ZEREBROUSDT": [
+    {
+      "symbol": "ZEREBROUSDT",
+      "fundingRate": "0.00006",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "BIOUSDT": [
+    {
+      "symbol": "BIOUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "SWARMSUSDT": [
+    {
+      "symbol": "SWARMSUSDT",
+      "fundingRate": "0.00038",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "ALCHUSDT": [
+    {
+      "symbol": "ALCHUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "COOKIEUSDT": [
+    {
+      "symbol": "COOKIEUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "SONICUSDT": [
+    {
+      "symbol": "SONICUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "AVAAIUSDT": [
+    {
+      "symbol": "AVAAIUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "SUSDT": [
+    {
+      "symbol": "SUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "PROMUSDT": [
+    {
+      "symbol": "PROMUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "DUCKUSDT": [
+    {
+      "symbol": "DUCKUSDT",
+      "fundingRate": "0.000013",
+      "fundingRateInterval": "1",
+      "nextUpdate": "1753610400000",
+      "minFundingRate": "-0.01875",
+      "maxFundingRate": "0.01875"
+    }
+  ],
+  "BGSCUSDT": [
+    {
+      "symbol": "BGSCUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.025",
+      "maxFundingRate": "0.025"
+    }
+  ],
+  "SOLVUSDT": [
+    {
+      "symbol": "SOLVUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "ARCUSDT": [
+    {
+      "symbol": "ARCUSDT",
+      "fundingRate": "0.000129",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "PIPPINUSDT": [
+    {
+      "symbol": "PIPPINUSDT",
+      "fundingRate": "0.000163",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.01875",
+      "maxFundingRate": "0.01875"
+    }
+  ],
+  "TRUMPUSDT": [
+    {
+      "symbol": "TRUMPUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "MELANIAUSDT": [
+    {
+      "symbol": "MELANIAUSDT",
+      "fundingRate": "0.00048",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "PLUMEUSDT": [
+    {
+      "symbol": "PLUMEUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.01125",
+      "maxFundingRate": "0.01125"
+    }
+  ],
+  "VTHOUSDT": [
+    {
+      "symbol": "VTHOUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "JUSDT": [
+    {
+      "symbol": "JUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.01125",
+      "maxFundingRate": "0.01125"
+    }
+  ],
+  "VINEUSDT": [
+    {
+      "symbol": "VINEUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.01875",
+      "maxFundingRate": "0.01875"
+    }
+  ],
+  "ANIMEUSDT": [
+    {
+      "symbol": "ANIMEUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "XCNUSDT": [
+    {
+      "symbol": "XCNUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.01875",
+      "maxFundingRate": "0.01875"
+    }
+  ],
+  "TOSHIUSDT": [
+    {
+      "symbol": "TOSHIUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.01875",
+      "maxFundingRate": "0.01875"
+    }
+  ],
+  "VVVUSDT": [
+    {
+      "symbol": "VVVUSDT",
+      "fundingRate": "-0.00003",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.01875",
+      "maxFundingRate": "0.01875"
+    }
+  ],
+  "FORTHUSDT": [
+    {
+      "symbol": "FORTHUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02004",
+      "maxFundingRate": "0.02004"
+    }
+  ],
+  "BERAUSDT": [
+    {
+      "symbol": "BERAUSDT",
+      "fundingRate": "-0.000512",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.018",
+      "maxFundingRate": "0.018"
+    }
+  ],
+  "TSTBSCUSDT": [
+    {
+      "symbol": "TSTBSCUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "10000ELONUSDT": [
+    {
+      "symbol": "10000ELONUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.01125",
+      "maxFundingRate": "0.01125"
+    }
+  ],
+  "LAYERUSDT": [
+    {
+      "symbol": "LAYERUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "B3USDT": [
+    {
+      "symbol": "B3USDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "IPUSDT": [
+    {
+      "symbol": "IPUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.01875",
+      "maxFundingRate": "0.01875"
+    }
+  ],
+  "RONUSDT": [
+    {
+      "symbol": "RONUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "HEIUSDT": [
+    {
+      "symbol": "HEIUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.018",
+      "maxFundingRate": "0.018"
+    }
+  ],
+  "SHELLUSDT": [
+    {
+      "symbol": "SHELLUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "BROCCOLIUSDT": [
+    {
+      "symbol": "BROCCOLIUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.01875",
+      "maxFundingRate": "0.01875"
+    }
+  ],
+  "AUCTIONUSDT": [
+    {
+      "symbol": "AUCTIONUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "GPSUSDT": [
+    {
+      "symbol": "GPSUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "GNOUSDT": [
+    {
+      "symbol": "GNOUSDT",
+      "fundingRate": "-0.000045",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.025",
+      "maxFundingRate": "0.025"
+    }
+  ],
+  "AIOZUSDT": [
+    {
+      "symbol": "AIOZUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "PIUSDT": [
+    {
+      "symbol": "PIUSDT",
+      "fundingRate": "0.000127",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.01",
+      "maxFundingRate": "0.01"
+    }
+  ],
+  "AVLUSDT": [
+    {
+      "symbol": "AVLUSDT",
+      "fundingRate": "0.000025",
+      "fundingRateInterval": "2",
+      "nextUpdate": "1753610400000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "KAITOUSDT": [
+    {
+      "symbol": "KAITOUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "GODSUSDT": [
+    {
+      "symbol": "GODSUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.025",
+      "maxFundingRate": "0.025"
+    }
+  ],
+  "ROAMUSDT": [
+    {
+      "symbol": "ROAMUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.01875",
+      "maxFundingRate": "0.01875"
+    }
+  ],
+  "REDUSDT": [
+    {
+      "symbol": "REDUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "ELXUSDT": [
+    {
+      "symbol": "ELXUSDT",
+      "fundingRate": "0.000013",
+      "fundingRateInterval": "1",
+      "nextUpdate": "1753610400000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "SERAPHUSDT": [
+    {
+      "symbol": "SERAPHUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.01875",
+      "maxFundingRate": "0.01875"
+    }
+  ],
+  "BMTUSDT": [
+    {
+      "symbol": "BMTUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.01875",
+      "maxFundingRate": "0.01875"
+    }
+  ],
+  "VICUSDT": [
+    {
+      "symbol": "VICUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.01875",
+      "maxFundingRate": "0.01875"
+    }
+  ],
+  "EPICUSDT": [
+    {
+      "symbol": "EPICUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.018",
+      "maxFundingRate": "0.018"
+    }
+  ],
+  "OBTUSDT": [
+    {
+      "symbol": "OBTUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.01875",
+      "maxFundingRate": "0.01875"
+    }
+  ],
+  "MUBARAKUSDT": [
+    {
+      "symbol": "MUBARAKUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.01875",
+      "maxFundingRate": "0.01875"
+    }
+  ],
+  "NMRUSDT": [
+    {
+      "symbol": "NMRUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.025",
+      "maxFundingRate": "0.025"
+    }
+  ],
+  "TUTUSDT": [
+    {
+      "symbol": "TUTUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.01875",
+      "maxFundingRate": "0.01875"
+    }
+  ],
+  "FORMUSDT": [
+    {
+      "symbol": "FORMUSDT",
+      "fundingRate": "0.000306",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "RSS3USDT": [
+    {
+      "symbol": "RSS3USDT",
+      "fundingRate": "-0.000734",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.025",
+      "maxFundingRate": "0.025"
+    }
+  ],
+  "BIDUSDT": [
+    {
+      "symbol": "BIDUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "SIRENUSDT": [
+    {
+      "symbol": "SIRENUSDT",
+      "fundingRate": "0.000505",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "BANANAS31USDT": [
+    {
+      "symbol": "BANANAS31USDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "BRUSDT": [
+    {
+      "symbol": "BRUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.01875",
+      "maxFundingRate": "0.01875"
+    }
+  ],
+  "NILUSDT": [
+    {
+      "symbol": "NILUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "PARTIUSDT": [
+    {
+      "symbol": "PARTIUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "NAVXUSDT": [
+    {
+      "symbol": "NAVXUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.01875",
+      "maxFundingRate": "0.01875"
+    }
+  ],
+  "WALUSDT": [
+    {
+      "symbol": "WALUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.01875",
+      "maxFundingRate": "0.01875"
+    }
+  ],
+  "FUNUSDT": [
+    {
+      "symbol": "FUNUSDT",
+      "fundingRate": "-0.000201",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "MLNUSDT": [
+    {
+      "symbol": "MLNUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "GUNUSDT": [
+    {
+      "symbol": "GUNUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.015",
+      "maxFundingRate": "0.015"
+    }
+  ],
+  "PUMPBTCUSDT": [
+    {
+      "symbol": "PUMPBTCUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "STOUSDT": [
+    {
+      "symbol": "STOUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.01875",
+      "maxFundingRate": "0.01875"
+    }
+  ],
+  "XAUTUSDT": [
+    {
+      "symbol": "XAUTUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.0075",
+      "maxFundingRate": "0.0075"
+    }
+  ],
+  "AMPUSDT": [
+    {
+      "symbol": "AMPUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.01875",
+      "maxFundingRate": "0.01875"
+    }
+  ],
+  "BABYUSDT": [
+    {
+      "symbol": "BABYUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "FHEUSDT": [
+    {
+      "symbol": "FHEUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "PROMPTUSDT": [
+    {
+      "symbol": "PROMPTUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "RFCUSDT": [
+    {
+      "symbol": "RFCUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "KERNELUSDT": [
+    {
+      "symbol": "KERNELUSDT",
+      "fundingRate": "-0.000223",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "WCTUSDT": [
+    {
+      "symbol": "WCTUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "10000000AIDOGEUSDT": [
+    {
+      "symbol": "10000000AIDOGEUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "BANKUSDT": [
+    {
+      "symbol": "BANKUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "EPTUSDT": [
+    {
+      "symbol": "EPTUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "HYPERUSDT": [
+    {
+      "symbol": "HYPERUSDT",
+      "fundingRate": "-0.000444",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "ZORAUSDT": [
+    {
+      "symbol": "ZORAUSDT",
+      "fundingRate": "-0.0058",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "INITUSDT": [
+    {
+      "symbol": "INITUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "DOLOUSDT": [
+    {
+      "symbol": "DOLOUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "FISUSDT": [
+    {
+      "symbol": "FISUSDT",
+      "fundingRate": "-0.000732",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "JSTUSDT": [
+    {
+      "symbol": "JSTUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "TAIUSDT": [
+    {
+      "symbol": "TAIUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "SIGNUSDT": [
+    {
+      "symbol": "SIGNUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "MILKUSDT": [
+    {
+      "symbol": "MILKUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.025",
+      "maxFundingRate": "0.025"
+    }
+  ],
+  "HAEDALUSDT": [
+    {
+      "symbol": "HAEDALUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.025",
+      "maxFundingRate": "0.025"
+    }
+  ],
+  "PUNDIXUSDT": [
+    {
+      "symbol": "PUNDIXUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "B2USDT": [
+    {
+      "symbol": "B2USDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "GORKUSDT": [
+    {
+      "symbol": "GORKUSDT",
+      "fundingRate": "0.000593",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "HOUSEUSDT": [
+    {
+      "symbol": "HOUSEUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "ASRUSDT": [
+    {
+      "symbol": "ASRUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "ALPINEUSDT": [
+    {
+      "symbol": "ALPINEUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "SYRUPUSDT": [
+    {
+      "symbol": "SYRUPUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "OBOLUSDT": [
+    {
+      "symbol": "OBOLUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "SXTUSDT": [
+    {
+      "symbol": "SXTUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "SHMUSDT": [
+    {
+      "symbol": "SHMUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "DOODUSDT": [
+    {
+      "symbol": "DOODUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "SKYAIUSDT": [
+    {
+      "symbol": "SKYAIUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "LAUNCHCOINUSDT": [
+    {
+      "symbol": "LAUNCHCOINUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "NXPCUSDT": [
+    {
+      "symbol": "NXPCUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "BADGERUSDT": [
+    {
+      "symbol": "BADGERUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "AGTUSDT": [
+    {
+      "symbol": "AGTUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "AWEUSDT": [
+    {
+      "symbol": "AWEUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "RWAUSDT": [
+    {
+      "symbol": "RWAUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "BLUEUSDT": [
+    {
+      "symbol": "BLUEUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "BUSDT": [
+    {
+      "symbol": "BUSDT",
+      "fundingRate": "0.00113",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "SOONUSDT": [
+    {
+      "symbol": "SOONUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "ZBCNUSDT": [
+    {
+      "symbol": "ZBCNUSDT",
+      "fundingRate": "0.0001",
+      "fundingRateInterval": "8",
+      "nextUpdate": "1753632000000",
+      "minFundingRate": "-0.025",
+      "maxFundingRate": "0.025"
+    }
+  ],
+  "HUMAUSDT": [
+    {
+      "symbol": "HUMAUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "SOPHUSDT": [
+    {
+      "symbol": "SOPHUSDT",
+      "fundingRate": "-0.000141",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "AUSDT": [
+    {
+      "symbol": "AUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "ASRRUSDT": [
+    {
+      "symbol": "ASRRUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "BDXNUSDT": [
+    {
+      "symbol": "BDXNUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "PORT3USDT": [
+    {
+      "symbol": "PORT3USDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "LAUSDT": [
+    {
+      "symbol": "LAUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "CUDISUSDT": [
+    {
+      "symbol": "CUDISUSDT",
+      "fundingRate": "0.000143",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "SKATEUSDT": [
+    {
+      "symbol": "SKATEUSDT",
+      "fundingRate": "0.000246",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "RESOLVUSDT": [
+    {
+      "symbol": "RESOLVUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "HOMEUSDT": [
+    {
+      "symbol": "HOMEUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "IDOLUSDT": [
+    {
+      "symbol": "IDOLUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "SQDUSDT": [
+    {
+      "symbol": "SQDUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "TAGUSDT": [
+    {
+      "symbol": "TAGUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "SPKUSDT": [
+    {
+      "symbol": "SPKUSDT",
+      "fundingRate": "-0.000076",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "BOMBUSDT": [
+    {
+      "symbol": "BOMBUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "FUSDT": [
+    {
+      "symbol": "FUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "NEWTUSDT": [
+    {
+      "symbol": "NEWTUSDT",
+      "fundingRate": "-0.001866",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "DMCUSDT": [
+    {
+      "symbol": "DMCUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "HUSDT": [
+    {
+      "symbol": "HUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "SAHARAUSDT": [
+    {
+      "symbol": "SAHARAUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.018",
+      "maxFundingRate": "0.018"
+    }
+  ],
+  "NODEUSDT": [
+    {
+      "symbol": "NODEUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "FRAGUSDT": [
+    {
+      "symbol": "FRAGUSDT",
+      "fundingRate": "0.000581",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "ICNTUSDT": [
+    {
+      "symbol": "ICNTUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "MUSDT": [
+    {
+      "symbol": "MUSDT",
+      "fundingRate": "0.000372",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "CBKUSDT": [
+    {
+      "symbol": "CBKUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "CROSSUSDT": [
+    {
+      "symbol": "CROSSUSDT",
+      "fundingRate": "0.000581",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "BULLAUSDT": [
+    {
+      "symbol": "BULLAUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "TANSSIUSDT": [
+    {
+      "symbol": "TANSSIUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "AINUSDT": [
+    {
+      "symbol": "AINUSDT",
+      "fundingRate": "0.000107",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "USELESSUSDT": [
+    {
+      "symbol": "USELESSUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "PUMPUSDT": [
+    {
+      "symbol": "PUMPUSDT",
+      "fundingRate": "0.000251",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "CUSDT": [
+    {
+      "symbol": "CUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "VELVETUSDT": [
+    {
+      "symbol": "VELVETUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "TACUSDT": [
+    {
+      "symbol": "TACUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "ESUSDT": [
+    {
+      "symbol": "ESUSDT",
+      "fundingRate": "0.000277",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "ERAUSDT": [
+    {
+      "symbol": "ERAUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "TAUSDT": [
+    {
+      "symbol": "TAUSDT",
+      "fundingRate": "0.000501",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ],
+  "ASPUSDT": [
+    {
+      "symbol": "ASPUSDT",
+      "fundingRate": "0.00005",
+      "fundingRateInterval": "4",
+      "nextUpdate": "1753617600000",
+      "minFundingRate": "-0.02",
+      "maxFundingRate": "0.02"
+    }
+  ]
+}
