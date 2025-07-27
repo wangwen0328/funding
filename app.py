@@ -11,17 +11,32 @@ app = Flask(__name__)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # 设置脚本路径
-script_path = os.path.join(BASE_DIR, 'net_apy_calc.py')
+get_earn_path = os.path.join(BASE_DIR, 'get_earn.py')
+get_funding_rate_path = os.path.join(BASE_DIR, 'get_funding_rate.py')
+net_apy_calc_path = os.path.join(BASE_DIR, 'net_apy_calc.py')
+
 json_path = os.path.join(BASE_DIR, 'net_apy_sorted.json')
 
 # 定时任务线程函数
 def run_calc_every_10_min():
     def job():
+        # 启动时先跑一次
+        try:
+            print("首次执行 net_apy_calc.py ...")                
+            subprocess.run(['python', get_earn_path], check=True, cwd=os.path.dirname(get_earn_path))
+            subprocess.run(['python', get_funding_rate_path], check=True, cwd=os.path.dirname(get_funding_rate_path))
+            subprocess.run(['python', net_apy_calc_path], check=True, cwd=os.path.dirname(net_apy_calc_path))
+            print("✅ 首次执行成功")
+        except Exception as e:
+            print("❌ 首次执行失败:", e)
+
         while True:
-            time.sleep(60)  # 每 10 分钟执行一次
+            time.sleep(60*60*8)  # 每 10 分钟执行一次
             try:
                 print("定时执行 net_apy_calc.py ...")
-                subprocess.run(['python', script_path], check=True, cwd=os.path.dirname(script_path))
+                subprocess.run(['python', get_earn_path], check=True, cwd=os.path.dirname(get_earn_path))
+                subprocess.run(['python', get_funding_rate_path], check=True, cwd=os.path.dirname(get_funding_rate_path))
+                subprocess.run(['python', net_apy_calc_path], check=True, cwd=os.path.dirname(net_apy_calc_path))
                 print("✅ 定时执行成功")
             except Exception as e:
                 print("❌ 定时执行失败:", e)
