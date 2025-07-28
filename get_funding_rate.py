@@ -28,6 +28,7 @@ def get_funding_rate(symbol):
     return None
 
 if __name__ == "__main__":
+    print("get_funding_rate")
     symbols = get_all_symbols()
     results = {}
     for symbol in symbols:

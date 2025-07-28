@@ -1,5 +1,5 @@
 import json
-
+print("net_apy_calc")
 with open("earn_products.json", "r", encoding="utf-8") as f:
     earn_data = json.load(f)
 

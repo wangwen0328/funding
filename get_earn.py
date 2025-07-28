@@ -62,4 +62,5 @@ def get_earn_savings_products():
         print("响应文本:", response.text)
 
 if __name__ == "__main__":
+    print("get_earn")
     get_earn_savings_products()
