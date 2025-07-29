@@ -37,10 +37,10 @@ def run_calc_every_8_hours():
         try:
             print("首次执行相关脚本...")
             # 根据需要取消注释，执行相关脚本
-            #subprocess.run(['python', get_earn_path], check=True, cwd=BASE_DIR)
-            #subprocess.run(['python', get_funding_rate_path], check=True, cwd=BASE_DIR)
-            #subprocess.run(['python', net_apy_calc_path], check=True, cwd=BASE_DIR)
-            #subprocess.run(['python', history_funding_rate_path], check=True, cwd=BASE_DIR)
+            subprocess.run(['python', get_earn_path], check=True, cwd=BASE_DIR)
+            subprocess.run(['python', get_funding_rate_path], check=True, cwd=BASE_DIR)
+            subprocess.run(['python', net_apy_calc_path], check=True, cwd=BASE_DIR)
+            subprocess.run(['python', history_funding_rate_path], check=True, cwd=BASE_DIR)
             subprocess.run(['python', get_suggestion_path], check=True, cwd=BASE_DIR)
             print("✅ 首次执行成功")
         except Exception as e:
