@@ -101,7 +101,20 @@ def main():
             continue
 
         result = simulate(funding_data)
+        # 取出初始余额和第10天总额
+        initial_balance = result['initial_balance']
+        tenth_day_total = result['daily_results'][-1]['daily_total'] if len(result['daily_results']) >= 10 else None
+
+        # 计算实际年化收益率
+        if initial_balance and tenth_day_total:
+            annualized_apy = ((tenth_day_total / initial_balance) ** (365 / days)) - 1
+            annualized_apy_percent = round(annualized_apy * 100, 4)
+        else:
+            annualized_apy_percent = None
+
         output_data = {
+            "annualized_apy_percent": annualized_apy_percent, 
+            "daily_total": tenth_day_total, 
             "earn_apy": funding_data['earn_apy'],
             "net_apy": funding_data.get('net_apy'),  # 加上net_apy
             "funding_rate_annual_%": funding_data['funding_rate_annual_%'],

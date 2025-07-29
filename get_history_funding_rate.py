@@ -100,7 +100,7 @@ if __name__ == "__main__":
                     json.dump([result], f, ensure_ascii=False, indent=2)
 
                 print(f"✅ 已保存 {symbol} 到 {output_path}")
-                #time.sleep(0.5)  # 避免触发接口频率限制
+                time.sleep(0.5)  # 避免触发接口频率限制
 
             except Exception as e:
                 print(f"❌ 处理币种 {coin_info.get('coin', '未知')} 时出错: {e}")

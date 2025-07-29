@@ -94,6 +94,7 @@ def api_top10():
                         sim_data = json.load(sim_f)
                     # 把模拟部分放入coin['simulation']
                     coin['simulation'] = sim_data.get('simulation', {})
+                    coin['annualized_apy_percent'] = sim_data.get('annualized_apy_percent')  # ✅ 添加这一行
                 except Exception as e:
                     coin['simulation'] = {"error": f"模拟文件解析错误: {e}"}
             else:

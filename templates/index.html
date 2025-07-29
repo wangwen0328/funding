@@ -50,6 +50,13 @@
         if (!res.ok) throw new Error(`请求失败：${res.status}`);
         const data = await res.json();
 
+        // ✅ 按照第10天的 daily_total 进行降序排序
+        data.sort((a, b) => {
+          const aFinal = a.simulation?.daily_results?.[9]?.daily_total || 0;
+          const bFinal = b.simulation?.daily_results?.[9]?.daily_total || 0;
+          return bFinal - aFinal; // 从大到小
+        });
+
         const container = document.getElementById('result');
         container.innerHTML = '';
 
@@ -62,7 +69,11 @@
           block.appendChild(header);
 
           const baseInfo = document.createElement('p');
-          baseInfo.innerHTML = `Earn APY: ${coin.earn_apy}%<br>Funding Rate Annual: ${coin["funding_rate_annual_%"]}%`;
+          const annualized = coin.annualized_apy_percent !== undefined ? coin.annualized_apy_percent : 'N/A';
+          baseInfo.innerHTML =`
+                    Earn APY: ${coin.earn_apy}%<br>
+                    Funding Rate Annual: ${coin["funding_rate_annual_%"]}%<br>
+                    Expected Annualized APY: ${annualized}%`;
           block.appendChild(baseInfo);
 
           if (coin.simulation && !coin.simulation.error) {
