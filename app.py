@@ -1,9 +1,15 @@
-from flask import Flask, jsonify, render_template
+from flask import Flask, jsonify, render_template, request
 import subprocess
 import json
 import os
 import threading
 import time
+import sys
+import requests
+
+sys.path.append(os.path.join(os.path.dirname(__file__), 'buy_sell'))
+from short_trader import execute_short_trade 
+from buy_spot import execute_spot_buy_trade 
 
 # Flask 实例，模板目录默认 templates，静态目录不暴露项目根目录（默认static即可）
 app = Flask(__name__, template_folder='templates')
@@ -17,7 +23,6 @@ get_funding_rate_path = os.path.join(BASE_DIR, 'get_funding_rate.py')
 net_apy_calc_path = os.path.join(BASE_DIR, 'net_apy_calc.py')
 history_funding_rate_path = os.path.join(BASE_DIR, 'get_history_funding_rate.py')
 get_suggestion_path = os.path.join(BASE_DIR, 'get_suggestion_simple.py')
-
 # 数据文件路径
 json_path = os.path.join(BASE_DIR, 'net_apy_sorted.json')
 sim_result_dir = os.path.join(BASE_DIR, 'sim_results')
@@ -32,10 +37,10 @@ def run_calc_every_8_hours():
         try:
             print("首次执行相关脚本...")
             # 根据需要取消注释，执行相关脚本
-            subprocess.run(['python', get_earn_path], check=True, cwd=BASE_DIR)
-            subprocess.run(['python', get_funding_rate_path], check=True, cwd=BASE_DIR)
-            subprocess.run(['python', net_apy_calc_path], check=True, cwd=BASE_DIR)
-            subprocess.run(['python', history_funding_rate_path], check=True, cwd=BASE_DIR)
+            #subprocess.run(['python', get_earn_path], check=True, cwd=BASE_DIR)
+            #subprocess.run(['python', get_funding_rate_path], check=True, cwd=BASE_DIR)
+            #subprocess.run(['python', net_apy_calc_path], check=True, cwd=BASE_DIR)
+            #subprocess.run(['python', history_funding_rate_path], check=True, cwd=BASE_DIR)
             subprocess.run(['python', get_suggestion_path], check=True, cwd=BASE_DIR)
             print("✅ 首次执行成功")
         except Exception as e:
@@ -107,6 +112,40 @@ def api_top10():
     except Exception as e:
         return jsonify({'error': f"读取数据失败: {e}"}), 500
 
+
+@app.route('/api/short', methods=['POST'])
+def api_short():
+    try:
+        payload = request.get_json()
+        symbol = payload['coin']
+        usdt_amount = float(payload['amount'])
+        slippage = float(payload['slippage'])
+
+        success, result = execute_short_trade(symbol, usdt_amount, slippage)
+        if success:
+            return jsonify(success=True, result=result)
+        else:
+            return jsonify(success=False, message=result), 500
+
+    except Exception as e:
+        return jsonify(success=False, message=str(e)), 500
+    
+@app.route('/api/buy', methods=['POST'])
+def api_buy():
+    try:
+        payload = request.get_json()
+        symbol = payload['coin']
+        usdt_amount = float(payload['amount'])
+        slippage = float(payload['slippage'])
+
+        success, result = execute_spot_buy_trade(symbol, usdt_amount, slippage)
+        if success:
+            return jsonify(success=True, result=result)
+        else:
+            return jsonify(success=False, message=result), 500
+
+    except Exception as e:
+        return jsonify(success=False, message=str(e)), 500
 
 if __name__ == '__main__':
     print("启动 Flask 服务器，当前工作目录:", os.getcwd())

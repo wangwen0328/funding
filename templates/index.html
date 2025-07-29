@@ -35,26 +35,53 @@
       margin: 10px 0;
       border-radius: 8px;
     }
+    .input-block {
+      margin-bottom: 20px;
+      padding: 15px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      background-color: #f9f9f9;
+    }
+    .input-block label {
+      margin-right: 15px;
+    }
+    .input-block input {
+      margin-left: 5px;
+      width: 120px;
+    }
   </style>
 </head>
 <body>
   <h1>币种净APY前10排名及模拟结果</h1>
+
+  <div class="input-block">
+    <label>币名字:
+      <input type="text" id="coinInput" placeholder="例如 APEUSDT">
+    </label>
+    <label>买入数量(USDT):
+      <input type="number" id="amountInput" step="0.01" placeholder="例如 5.5">
+    </label>
+    <label>滑点:
+      <input type="number" id="slippageInput" step="0.0001" placeholder="例如 0.001">
+    </label>
+    <button id="tradeBtn">提交买入卖空</button>
+  </div>
+
   <button id="loadBtn">加载数据</button>
   <div id="result"></div>
 
   <script>
+    // 模拟结果加载
     document.getElementById('loadBtn').onclick = async () => {
       try {
-        // 直接请求后端接口，拿到已经合并了模拟数据的前10条币种
         const res = await fetch('/api/top10');
         if (!res.ok) throw new Error(`请求失败：${res.status}`);
         const data = await res.json();
 
-        // ✅ 按照第10天的 daily_total 进行降序排序
         data.sort((a, b) => {
           const aFinal = a.simulation?.daily_results?.[9]?.daily_total || 0;
           const bFinal = b.simulation?.daily_results?.[9]?.daily_total || 0;
-          return bFinal - aFinal; // 从大到小
+          return bFinal - aFinal;
         });
 
         const container = document.getElementById('result');
@@ -71,9 +98,9 @@
           const baseInfo = document.createElement('p');
           const annualized = coin.annualized_apy_percent !== undefined ? coin.annualized_apy_percent : 'N/A';
           baseInfo.innerHTML =`
-                    Earn APY: ${coin.earn_apy}%<br>
-                    Funding Rate Annual: ${coin["funding_rate_annual_%"]}%<br>
-                    Expected Annualized APY: ${annualized}%`;
+              Earn APY: ${coin.earn_apy}%<br>
+              Funding Rate Annual: ${coin["funding_rate_annual_%"]}%<br>
+              Expected Annualized APY: ${annualized}%`;
           block.appendChild(baseInfo);
 
           if (coin.simulation && !coin.simulation.error) {
@@ -104,8 +131,7 @@
                       <td>${row.total_funding}</td>
                     </tr>`).join('')}
                 </tbody>
-              </table>
-            `;
+              </table>`;
             block.appendChild(simSummary);
           } else {
             const warn = document.createElement('p');
@@ -121,6 +147,52 @@
         alert('加载失败：' + err.message);
       }
     };
+
+    // 处理交易提交
+    document.getElementById('tradeBtn').onclick = async () => {
+    const coin = document.getElementById('coinInput').value.trim();
+    const amount = parseFloat(document.getElementById('amountInput').value);
+    const slippage = parseFloat(document.getElementById('slippageInput').value);
+
+    if (!coin) return alert('请输入币名字');
+    if (isNaN(amount) || amount <= 0) return alert('请输入正确的买入数量');
+    if (isNaN(slippage) || slippage < 0) return alert('请输入正确的滑点');
+
+    const payload = JSON.stringify({ coin, amount, slippage });
+
+    try {
+      // 先卖出合约
+      const shortRes = await fetch('/api/short', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: payload
+      });
+
+      const shortData = await shortRes.json();
+
+      if (!shortRes.ok || shortData.success === false) {
+        return alert('❌ 卖空失败: ' + (shortData.message || JSON.stringify(shortData)));
+      }
+
+      // 卖空成功后再买入现货
+      const buyRes = await fetch('/api/buy', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: payload
+      });
+
+      const buyData = await buyRes.json();
+
+      if (!buyRes.ok || buyData.success === false) {
+        return alert('⚠️ 卖空成功，但买入现货失败: ' + (buyData.message || JSON.stringify(buyData)));
+      }
+
+      alert(`✅ 卖空成功: ${JSON.stringify(shortData)}\n✅ 买入成功: ${JSON.stringify(buyData)}`);
+
+    } catch (e) {
+      alert('❌ 请求失败: ' + e.message);
+    }
+  };
   </script>
 </body>
 </html>

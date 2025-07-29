@@ -1,111 +1,134 @@
 import json
-import requests
 import time
 import hmac
 import hashlib
 import base64
+import requests
 from decimal import Decimal, ROUND_DOWN
 
-api_key = 'bg_fa5e35d776ba3f9699737693b039b180'
-secret = '6c9a49290d69c75417890b3626ab3ff8d44a7ecefc9ba899af876857a8db62eb'
-passphrase = 'Ii000000'
+# === API 信息 ===
+api_key = '你的API_KEY'
+secret = '你的SECRET'
+passphrase = '你的PASSPHRASE'
 base_url = 'https://api.bitget.com'
 
+# === 参数设置 ===
+symbol = 'APEUSDT'
+coin = 'APE'
+slippage = 0.005  # 0.5% 滑点
+poll_interval = 3  # 查询间隔（秒）
+dry_run = False  # 测试模式
 
-def truncate_size(size, decimals=4):
-    d = Decimal(str(size))
+# === 工具函数 ===
+def truncate(value, decimals=4):
+    d = Decimal(str(value))
     return float(d.quantize(Decimal(f'1.{"0"*decimals}'), rounding=ROUND_DOWN))
 
 def get_server_timestamp():
     url = f'{base_url}/api/v2/public/time'
-    resp = requests.get(url)
-    return str(resp.json()['data']['serverTime'])
+    return str(requests.get(url).json()['data']['serverTime'])
 
 def generate_signature(timestamp, method, endpoint, body=''):
     pre_sign = f"{timestamp}{method}{endpoint}{body}"
-    sign = base64.b64encode(
-        hmac.new(
-            secret.encode('utf-8'),
-            pre_sign.encode('utf-8'),
-            hashlib.sha256
-        ).digest()
+    return base64.b64encode(
+        hmac.new(secret.encode(), pre_sign.encode(), hashlib.sha256).digest()
     ).decode()
-    return sign
 
-def get_spot_account_balance(coin):
-    timestamp = get_server_timestamp()
+def get_spot_price(symbol):
+    url = f'{base_url}/api/v2/spot/market/tickers'
+    resp = requests.get(url)
+    for item in resp.json().get("data", []):
+        if item.get("symbol") == symbol:
+            return float(item.get("lastPr"))
+    return None
+
+def get_balance(coin):
+    ts = get_server_timestamp()
     endpoint = '/api/v2/spot/account/assets'
-    method = 'GET'
-    sign = generate_signature(timestamp, method, endpoint, '')
-
+    sign = generate_signature(ts, 'GET', endpoint)
     headers = {
         'ACCESS-KEY': api_key,
         'ACCESS-SIGN': sign,
-        'ACCESS-TIMESTAMP': timestamp,
+        'ACCESS-TIMESTAMP': ts,
         'ACCESS-PASSPHRASE': passphrase,
     }
-    url = base_url + endpoint
-    response = requests.get(url, headers=headers)
-    if response.status_code != 200:
-        print("❌ 获取账户余额失败:", response.text)
-        return 0
-    data = response.json().get('data', [])
-    print("📝 账户资产详细:", data)  # 打印所有资产，帮你看下APE情况
-    for asset in data:
-        if asset.get('coin') == coin:
-            free = float(asset.get('available', 0))
-            print(f"💰 账户可用 {coin} 数量: {free}")
-            return free
-    print(f"❌ 账户没有该币种 {coin} 余额")
+    resp = requests.get(base_url + endpoint, headers=headers)
+    for item in resp.json().get("data", []):
+        if item.get('coin') == coin:
+            return float(item.get('available', 0))
     return 0
 
-
-def place_spot_market_sell_order(symbol, size, dry_run=True):
-    timestamp = get_server_timestamp()
+def place_limit_sell(symbol, price, size):
+    ts = get_server_timestamp()
     endpoint = '/api/v2/spot/trade/place-order'
-    method = 'POST'
-    size_truncated = truncate_size(size, 4)
     body = {
         "symbol": symbol,
         "side": "sell",
-        "orderType": "market",
+        "orderType": "limit",
         "force": "gtc",
-        "size": str(size_truncated)
+        "price": str(truncate(price, 4)),
+        "size": str(truncate(size, 4))
     }
     body_str = json.dumps(body)
-
-    sign = generate_signature(timestamp, method, endpoint, body_str)
+    sign = generate_signature(ts, 'POST', endpoint, body_str)
     headers = {
         'ACCESS-KEY': api_key,
         'ACCESS-SIGN': sign,
-        'ACCESS-TIMESTAMP': timestamp,
+        'ACCESS-TIMESTAMP': ts,
         'ACCESS-PASSPHRASE': passphrase,
         'Content-Type': 'application/json'
     }
-
     if dry_run:
-        print("🔁 [Dry Run] 模拟卖单数据:", body)
-        return
+        print("🧪 [Dry Run] 模拟限价单:", body)
+        return "test-order-id"
+    resp = requests.post(base_url + endpoint, headers=headers, data=body_str)
+    print("📨 下单响应:", resp.text)
+    return resp.json().get("data", {}).get("orderId")
 
-    url = base_url + endpoint
-    response = requests.post(url, headers=headers, data=body_str)
-    print("✅ 状态码:", response.status_code)
-    print("📨 响应内容:", response.text)
+def check_order_status(symbol, order_id):
+    ts = get_server_timestamp()
+    endpoint = f"/api/v2/spot/trade/order-info"
+    params = f"?symbol={symbol}&orderId={order_id}"
+    sign = generate_signature(ts, 'GET', endpoint + params)
+    headers = {
+        'ACCESS-KEY': api_key,
+        'ACCESS-SIGN': sign,
+        'ACCESS-TIMESTAMP': ts,
+        'ACCESS-PASSPHRASE': passphrase,
+    }
+    resp = requests.get(base_url + endpoint + params, headers=headers)
+    data = resp.json().get("data", {})
+    return data.get("status")  # 'new', 'partial_fill', 'full_fill', 'cancelled'
 
-
+# === 主逻辑 ===
 if __name__ == '__main__':
-    # 1. 读json文件
-    with open('net_apy_sorted.json', 'r') as f:
-        coins_data = json.load(f)
-
-    first_coin = coins_data[0]['coin']
-    symbol = first_coin + "USDT"
-    print(f"准备卖出交易对: {symbol}")
-
-    # 2. 获取该币持仓数量
-    balance = get_spot_account_balance(first_coin)
+    balance = get_balance(coin)
     if balance <= 0:
-        print("❌ 没有持仓或者余额不足，无法卖出")
-    else:
-        # 3. 下市价卖单，dry_run改False才真正卖
-        place_spot_market_sell_order(symbol, size=balance, dry_run=False)
+        print(f"❌ 没有可用余额 {coin}")
+        exit(1)
+
+    market_price = get_spot_price(symbol)
+    if market_price is None:
+        print("❌ 获取市场价格失败")
+        exit(1)
+
+    sell_price = market_price * (1 - slippage)
+    print(f"📈 当前市价: {market_price}, 设置限价: {sell_price:.6f}")
+
+    order_id = place_limit_sell(symbol, sell_price, balance)
+    if not order_id:
+        print("❌ 下单失败")
+        exit(1)
+
+    print(f"⏳ 等待订单成交... (orderId: {order_id})")
+
+    while True:
+        status = check_order_status(symbol, order_id)
+        print(f"🌀 当前订单状态: {status}")
+        if status == 'full_fill':
+            print("✅ 订单已完全成交")
+            break
+        elif status in ['cancelled', 'failure']:
+            print("❌ 订单已取消或失败")
+            break
+        time.sleep(poll_interval)
