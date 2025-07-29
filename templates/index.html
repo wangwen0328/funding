@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <title>币种净APY前5排名</title>
+  <meta charset="UTF-8" />
+  <title>币种净APY前10模拟结果</title>
   <style>
     body {
       font-family: sans-serif;
@@ -21,66 +21,95 @@
     th {
       background-color: #f2f2f2;
     }
-    button {
-      padding: 10px 20px;
-      font-size: 16px;
+    details {
+      margin-top: 10px;
+    }
+    summary {
+      cursor: pointer;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    .coin-block {
+      border: 1px solid #aaa;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 8px;
     }
   </style>
 </head>
 <body>
-  <h1>币种净APY前5排名</h1>
+  <h1>币种净APY前10排名及模拟结果</h1>
   <button id="loadBtn">加载数据</button>
-
-  <table id="dataTable" style="display: none;">
-    <thead>
-      <tr id="tableHeader"></tr>
-    </thead>
-    <tbody id="tableBody"></tbody>
-  </table>
+  <div id="result"></div>
 
   <script>
-    document.getElementById('loadBtn').onclick = () => {
-      fetch('/api/top5')
-        .then(res => res.json())
-        .then(data => {
-          const table = document.getElementById('dataTable');
-          const header = document.getElementById('tableHeader');
-          const body = document.getElementById('tableBody');
-          
-          // 清空旧数据
-          header.innerHTML = '';
-          body.innerHTML = '';
-          
-          if (data.length === 0) {
-            table.style.display = 'none';
-            return;
+    document.getElementById('loadBtn').onclick = async () => {
+      try {
+        // 直接请求后端接口，拿到已经合并了模拟数据的前10条币种
+        const res = await fetch('/api/top10');
+        if (!res.ok) throw new Error(`请求失败：${res.status}`);
+        const data = await res.json();
+
+        const container = document.getElementById('result');
+        container.innerHTML = '';
+
+        data.forEach(coin => {
+          const block = document.createElement('div');
+          block.className = 'coin-block';
+
+          const header = document.createElement('h3');
+          header.textContent = `${coin.symbol} - 净APY: ${coin.net_apy}%`;
+          block.appendChild(header);
+
+          const baseInfo = document.createElement('p');
+          baseInfo.innerHTML = `Earn APY: ${coin.earn_apy}%<br>Funding Rate Annual: ${coin["funding_rate_annual_%"]}%`;
+          block.appendChild(baseInfo);
+
+          if (coin.simulation && !coin.simulation.error) {
+            const sim = coin.simulation;
+            const simSummary = document.createElement('details');
+            simSummary.innerHTML = `
+              <summary>📈 模拟详情 (预测资金费率: ${sim.predicted_funding_rate})</summary>
+              <p>初始本金: ${sim.initial_balance}</p>
+              <table>
+                <thead>
+                  <tr>
+                    <th>日期</th>
+                    <th>Earn收益</th>
+                    <th>资金费收益</th>
+                    <th>当日总额</th>
+                    <th>累计Earn</th>
+                    <th>累计Funding</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  ${sim.daily_results.map(row => `
+                    <tr>
+                      <td>${row.date}</td>
+                      <td>${row.earn_interest}</td>
+                      <td>${row.funding_income}</td>
+                      <td>${row.daily_total}</td>
+                      <td>${row.total_earn}</td>
+                      <td>${row.total_funding}</td>
+                    </tr>`).join('')}
+                </tbody>
+              </table>
+            `;
+            block.appendChild(simSummary);
+          } else {
+            const warn = document.createElement('p');
+            warn.textContent = `⚠️ 模拟数据错误: ${coin.simulation ? coin.simulation.error : '无数据'}`;
+            warn.style.color = 'red';
+            block.appendChild(warn);
           }
 
-          // 动态生成表头（根据第一个币种的字段）
-          const keys = Object.keys(data[0]);
-          keys.forEach(key => {
-            const th = document.createElement('th');
-            th.textContent = key;
-            header.appendChild(th);
-          });
-
-          // 填充表格行数据
-          data.forEach(item => {
-            const tr = document.createElement('tr');
-            keys.forEach(key => {
-              const td = document.createElement('td');
-              td.textContent = item[key];
-              tr.appendChild(td);
-            });
-            body.appendChild(tr);
-          });
-
-          table.style.display = 'table';
-        })
-        .catch(err => {
-          alert("加载失败：" + err);
+          container.appendChild(block);
         });
-    }
+
+      } catch (err) {
+        alert('加载失败：' + err.message);
+      }
+    };
   </script>
 </body>
 </html>
