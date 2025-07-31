@@ -160,7 +160,7 @@ def execute_short_trade(symbol, usdt_amount, max_slippage):
 def main():
     symbol = "APEUSDT"
     max_slippage = 0.001  # 最大滑点0.5%
-    usdt_amount = 5.5      # 准备卖空的USDT金额
+    usdt_amount = 5.1      # 准备卖空的USDT金额
 
     price = get_contract_price(symbol)
     if price is None:
