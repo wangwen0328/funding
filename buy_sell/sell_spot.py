@@ -130,6 +130,27 @@ def debug_print_all_balances():
         print(f"  {asset['coin']}: {asset['available']}")
 
 
+def sell_spot_entry_from_app(symbol: str, slippage: float) -> tuple[bool, str]:
+    try:
+        debug_print_all_balances()  # 打印全部余额信息（可选）
+
+        first_coin = symbol.replace('USDT', '')
+        print(f"准备卖出交易对: {symbol}")
+
+        balance = get_spot_account_balance(first_coin)
+        if balance <= 0:
+            msg = "❌ 没有持仓或者余额不足，无法卖出"
+            print(msg)
+            return False, msg
+
+        print(f"持仓余额: {balance}")
+        place_spot_limit_sell_order(symbol, size=balance, max_slippage=slippage, dry_run=False)
+        return True, f"✅ 卖出提交成功，数量: {balance}"
+
+    except Exception as e:
+        return False, f"❌ 执行异常: {str(e)}"
+
+
 if __name__ == '__main__':
     max_slippage = 0.001  # 允许滑点 0.1%
     debug_print_all_balances()

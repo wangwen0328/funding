@@ -9,7 +9,9 @@ import requests
 
 sys.path.append(os.path.join(os.path.dirname(__file__), 'buy_sell'))
 from short_trader import execute_short_trade 
+from short_close import close_short_position
 from buy_spot import execute_spot_buy_trade 
+from sell_spot import sell_spot_entry_from_app
 
 # Flask 实例，模板目录默认 templates，静态目录不暴露项目根目录（默认static即可）
 app = Flask(__name__, template_folder='templates')
@@ -37,10 +39,10 @@ def run_calc_every_8_hours():
         try:
             print("首次执行相关脚本...")
             # 根据需要取消注释，执行相关脚本
-            subprocess.run(['python', get_earn_path], check=True, cwd=BASE_DIR)
-            subprocess.run(['python', get_funding_rate_path], check=True, cwd=BASE_DIR)
-            subprocess.run(['python', net_apy_calc_path], check=True, cwd=BASE_DIR)
-            subprocess.run(['python', history_funding_rate_path], check=True, cwd=BASE_DIR)
+            #subprocess.run(['python', get_earn_path], check=True, cwd=BASE_DIR)
+            #subprocess.run(['python', get_funding_rate_path], check=True, cwd=BASE_DIR)
+            #subprocess.run(['python', net_apy_calc_path], check=True, cwd=BASE_DIR)
+            #subprocess.run(['python', history_funding_rate_path], check=True, cwd=BASE_DIR)
             subprocess.run(['python', get_suggestion_path], check=True, cwd=BASE_DIR)
             print("✅ 首次执行成功")
         except Exception as e:
@@ -139,6 +141,39 @@ def api_buy():
         slippage = float(payload['slippage'])
 
         success, result = execute_spot_buy_trade(symbol, usdt_amount, slippage)
+        if success:
+            return jsonify(success=True, result=result)
+        else:
+            return jsonify(success=False, message=result), 500
+
+    except Exception as e:
+        return jsonify(success=False, message=str(e)), 500
+
+
+@app.route('/api/sell', methods=['POST'])
+def api_sell():
+    try:
+        payload = request.get_json()
+        symbol = payload['coin']
+        slippage = float(payload['slippage'])
+
+        success, result = sell_spot_entry_from_app(symbol, slippage)
+        if success:
+            return jsonify(success=True, result=result)
+        else:
+            return jsonify(success=False, message=result), 500
+
+    except Exception as e:
+        return jsonify(success=False, message=str(e)), 500
+
+@app.route('/api/close_short', methods=['POST'])
+def api_close_short():
+    try:
+        payload = request.get_json()
+        symbol = payload['coin']
+        slippage = float(payload['slippage'])
+
+        success, result = close_short_position(symbol, slippage, False)
         if success:
             return jsonify(success=True, result=result)
         else:

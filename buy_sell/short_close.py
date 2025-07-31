@@ -117,24 +117,34 @@ def place_close_short_order(symbol, size, price, dry_run=False, pos_mode='one_wa
 
     if dry_run:
         print("🔁 [Dry Run] 模拟平仓单:", body)
-        return
+        return True  
 
     url = base_url + endpoint
     resp = requests.post(url, headers=headers, data=body_str)
     print("✅ 状态码:", resp.status_code)
     print("📨 响应内容:", resp.text)
-
+    try:
+        data = resp.json()
+        # 这里根据bitget合约下单API文档判定成功，一般code == '00000'表示成功
+        if data.get('code') == '00000':
+            return True
+        else:
+            print("❌ 下单失败，错误信息:", data)
+            return False
+    except Exception as e:
+        print("❌ 解析响应异常:", e)
+        return False
 
 def close_short_position(symbol, max_slippage=0.001, dry_run=False):
     price = get_contract_price(symbol)
     if price is None:
         print("❌ 获取价格失败，终止操作")
-        return
+        return False, "获取价格失败"
 
     size, pos_mode = get_position_size_and_mode(symbol)
     if size <= 0 or pos_mode is None:
         print("❌ 当前无空头持仓")
-        return
+        return False, "当前无空头持仓"
 
     limit_price = price * (1 + max_slippage)
     size = truncate_size(size, 4)
@@ -142,7 +152,13 @@ def close_short_position(symbol, max_slippage=0.001, dry_run=False):
 
     print(f"📉 当前合约价格: {price}")
     print(f"🎯 限价平仓价格: {limit_price}，数量: {size}")
-    place_close_short_order(symbol, size, limit_price, dry_run=dry_run, pos_mode=pos_mode)
+
+    success = place_close_short_order(symbol, size, limit_price, dry_run=dry_run, pos_mode=pos_mode)
+    if success:
+        return True, {"price": limit_price, "size": size}
+    else:
+        return False, "下单失败"
+
 
 
 if __name__ == '__main__':

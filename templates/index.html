@@ -65,6 +65,7 @@
       <input type="number" id="slippageInput" step="0.0001" placeholder="例如 0.001">
     </label>
     <button id="tradeBtn">提交买入卖空</button>
+    <button id="closeBtn" style="margin-left: 10px;">提交卖出现货平掉合约</button>
   </div>
 
   <button id="loadBtn">加载数据</button>
@@ -188,6 +189,52 @@
       }
 
       alert(`✅ 卖空成功: ${JSON.stringify(shortData)}\n✅ 买入成功: ${JSON.stringify(buyData)}`);
+
+    } catch (e) {
+      alert('❌ 请求失败: ' + e.message);
+    }
+  };
+
+  // 处理平仓提交（卖出现货，平掉合约）
+    document.getElementById('closeBtn').onclick = async () => {
+    const coin = document.getElementById('coinInput').value.trim();
+    //const amount = parseFloat(document.getElementById('amountInput').value);
+    const slippage = parseFloat(document.getElementById('slippageInput').value);
+
+    if (!coin) return alert('请输入币名字');
+    //if (isNaN(amount) || amount <= 0) return alert('请输入正确的卖出数量');
+    if (isNaN(slippage) || slippage < 0) return alert('请输入正确的滑点');
+
+    const payload = JSON.stringify({ coin, slippage });
+
+    try {
+      // 第一步：卖出现货
+      const sellRes = await fetch('/api/sell', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: payload
+      });
+
+      const sellData = await sellRes.json();
+
+      if (!sellRes.ok || sellData.success === false) {
+        return alert('❌ 卖出现货失败: ' + (sellData.message || JSON.stringify(sellData)));
+      }
+
+      // 第二步：平掉合约
+      const closeRes = await fetch('/api/close_short', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: payload
+      });
+
+      const closeData = await closeRes.json();
+
+      if (!closeRes.ok || closeData.success === false) {
+        return alert('⚠️ 现货卖出成功，但平掉合约失败: ' + (closeData.message || JSON.stringify(closeData)));
+      }
+
+      alert(`✅ 卖出现货成功: ${JSON.stringify(sellData)}\n✅ 平掉合约成功: ${JSON.stringify(closeData)}`);
 
     } catch (e) {
       alert('❌ 请求失败: ' + e.message);
