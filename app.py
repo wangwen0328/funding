@@ -12,6 +12,8 @@ from short_trader import execute_short_trade
 from short_close import close_short_position
 from buy_spot import execute_spot_buy_trade 
 from sell_spot import sell_spot_entry_from_app
+from save_in import auto_subscribe_savings_for_coin
+from save_out import auto_redeem_savings_for_coin
 
 # Flask 实例，模板目录默认 templates，静态目录不暴露项目根目录（默认static即可）
 app = Flask(__name__, template_folder='templates')
@@ -39,10 +41,10 @@ def run_calc_every_8_hours():
         try:
             print("首次执行相关脚本...")
             # 根据需要取消注释，执行相关脚本
-            #subprocess.run(['python', get_earn_path], check=True, cwd=BASE_DIR)
-            #subprocess.run(['python', get_funding_rate_path], check=True, cwd=BASE_DIR)
-            #subprocess.run(['python', net_apy_calc_path], check=True, cwd=BASE_DIR)
-            #subprocess.run(['python', history_funding_rate_path], check=True, cwd=BASE_DIR)
+            subprocess.run(['python', get_earn_path], check=True, cwd=BASE_DIR)
+            subprocess.run(['python', get_funding_rate_path], check=True, cwd=BASE_DIR)
+            subprocess.run(['python', net_apy_calc_path], check=True, cwd=BASE_DIR)
+            subprocess.run(['python', history_funding_rate_path], check=True, cwd=BASE_DIR)
             subprocess.run(['python', get_suggestion_path], check=True, cwd=BASE_DIR)
             print("✅ 首次执行成功")
         except Exception as e:
@@ -136,13 +138,28 @@ def api_short():
 def api_buy():
     try:
         payload = request.get_json()
-        symbol = payload['coin']
+        symbol = payload['coin']       # 例: "APEUSDT"
         usdt_amount = float(payload['amount'])
         slippage = float(payload['slippage'])
 
+        # 买现货
         success, result = execute_spot_buy_trade(symbol, usdt_amount, slippage)
         if success:
-            return jsonify(success=True, result=result)
+            # 计算买入币的数量（从返回结果或者重新计算）
+            bought_size = result.get("size") if isinstance(result, dict) else None
+            coin = symbol.replace("USDT", "")  # 只保留币名，比如 APE
+
+            time.sleep(10)
+            # 买活期理财，买入成功且数量有
+            if bought_size and coin:
+                earn_success, earn_msg = auto_subscribe_savings_for_coin(coin)
+            else:
+                earn_success, earn_msg = False, "无买入币数量，未买理财"
+
+            return jsonify(success=True, 
+                           spot_result=result, 
+                           earn_success=earn_success, 
+                           earn_msg=earn_msg)
         else:
             return jsonify(success=False, message=result), 500
 
@@ -157,6 +174,15 @@ def api_sell():
         symbol = payload['coin']
         slippage = float(payload['slippage'])
 
+        coin = symbol.replace("USDT", "")  # 提取币种，如 APE
+
+        # 先从理财赎回全部活期理财余额
+        redeem_success, redeem_msg = auto_redeem_savings_for_coin(coin)
+        if not redeem_success:
+            # 赎回失败，直接返回错误，不卖现货
+            return jsonify(success=False, message=f"赎回失败: {redeem_msg}"), 400
+        
+        time.sleep(10)
         success, result = sell_spot_entry_from_app(symbol, slippage)
         if success:
             return jsonify(success=True, result=result)
