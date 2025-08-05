@@ -1,18 +1,23 @@
-import requests
-import json
-import time
 import os
+import json
+import requests
+import time
 
 BASE_URL = "https://api.bitget.com"
 PRODUCT_TYPE = "usdt-futures"
 INPUT_FILE = "net_apy_sorted.json"
-MAX_COINS = 10  # 处理前10个币
 OUTPUT_DIR = "funding_data"
+SPOT_LENDING_FILE = "spot_lending_rates_v2.json"
 
-# 确保输出目录存在
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# 删除目录下所有旧文件
+# 读借贷利率缓存文件
+if os.path.exists(SPOT_LENDING_FILE):
+    with open(SPOT_LENDING_FILE, "r", encoding="utf-8") as f:
+        spot_lending_rates = json.load(f)
+else:
+    spot_lending_rates = {}
+
 def clear_output_dir():
     for filename in os.listdir(OUTPUT_DIR):
         file_path = os.path.join(OUTPUT_DIR, filename)
@@ -27,7 +32,9 @@ def get_funding_data_for_symbol(coin_info):
     symbol = f"{coin}USDT"
     earn_apy = coin_info.get("earn_apy")
     funding_rate_annual_percent = coin_info.get("funding_rate_annual_%")
-    net_apy = coin_info.get("net_apy")  # 新增这一行
+    net_apy = coin_info.get("net_apy")
+
+    spot_sell_lend_rate = spot_lending_rates.get(coin)
 
     print(f"🔍 处理 {symbol}...")
 
@@ -37,9 +44,10 @@ def get_funding_data_for_symbol(coin_info):
     return {
         "coin": coin,
         "earn_apy": earn_apy,
-        "net_apy": net_apy,              # 把 net_apy 也放进去
+        "net_apy": net_apy,
         "symbol": symbol,
         "funding_rate_annual_%": funding_rate_annual_percent,
+        "spot_sell_lend_rate": spot_sell_lend_rate,
         "current_funding_rate": current_rate,
         "history": history
     }
@@ -88,9 +96,15 @@ if __name__ == "__main__":
         if not coin_list:
             raise ValueError("❌ JSON 文件为空")
 
-        top_coins = coin_list[:MAX_COINS]
+        filtered_coins = [c for c in coin_list if abs(c.get("net_apy", 0)) > 40]
 
-        for coin_info in top_coins:
+        if len(filtered_coins) < 10:
+            print(f"⚠️ 筛选出的币不足10个({len(filtered_coins)})，改为处理前10个币")
+            coins_to_process = coin_list[:10]
+        else:
+            coins_to_process = filtered_coins
+
+        for coin_info in coins_to_process:
             try:
                 result = get_funding_data_for_symbol(coin_info)
                 symbol = result['symbol']
@@ -100,7 +114,7 @@ if __name__ == "__main__":
                     json.dump([result], f, ensure_ascii=False, indent=2)
 
                 print(f"✅ 已保存 {symbol} 到 {output_path}")
-                time.sleep(0.5)  # 避免触发接口频率限制
+                time.sleep(0.5)
 
             except Exception as e:
                 print(f"❌ 处理币种 {coin_info.get('coin', '未知')} 时出错: {e}")
